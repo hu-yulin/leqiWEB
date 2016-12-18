@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-
+    Shop HomePage jsp
 </body>
 </html>
