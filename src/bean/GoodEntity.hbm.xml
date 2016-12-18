@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="bean.GoodEntity" table="good" schema="leqi">
+        <id name="goodId" column="good_id"/>
+        <property name="shopId" column="shop_id"/>
+        <property name="typeId" column="type_id"/>
+        <property name="name" column="name"/>
+        <property name="brand" column="brand"/>
+        <property name="originalPrice" column="original_price"/>
+        <property name="currentPrice" column="current_price"/>
+        <property name="description" column="description"/>
+        <property name="isRented" column="is_rented"/>
+        <property name="hitCount" column="hit_count"/>
+        <property name="onSaleTime" column="on_sale_time"/>
+    </class>
+</hibernate-mapping>
