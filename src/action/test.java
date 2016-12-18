@@ -1,14 +1,15 @@
 package action;
 
-import org.apache.struts.action.Action;
+import com.opensymphony.xwork2.ActionSupport;
+
 
 /**
  * @author huyulin
  * Created by lenovo on 2016/12/17.
  */
-public class test extends Action {
+public class test extends ActionSupport {
 
     public String execute(){
-        return  SUCCE;
+        return SUCCESS ;
     }
 }

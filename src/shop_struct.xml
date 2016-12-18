@@ -6,7 +6,7 @@
 
 <struts>
     <package name="test" extends="struts-default" >
-        <action name="test" class="action.test" method="execute">
+        <action name="hello" class="action.test" method="execute">
             <result>/index.jsp</result>
         </action>
     </package>
