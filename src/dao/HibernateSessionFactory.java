@@ -1,9 +1,8 @@
 package dao;
 
-import org.hibernate.HibernateException;
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
+import bean.ActivityEntity;
+import bean.GoodEntity;
+import org.hibernate.*;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.metadata.ClassMetadata;
 import org.hibernate.service.ServiceRegistry;
@@ -36,18 +35,27 @@ public class HibernateSessionFactory {
 
     public static void main(final String[] args) throws Exception {
         final Session session = getSession();
+
         try {
             System.out.println("querying all the managed entities...");
-            final Map metadataMap = session.getSessionFactory().getAllClassMetadata();
-            for (Object key : metadataMap.keySet()) {
-                final ClassMetadata classMetadata = (ClassMetadata) metadataMap.get(key);
-                final String entityName = classMetadata.getEntityName();
-                final Query query = session.createQuery("from " + entityName);
-                System.out.println("executing: " + query.getQueryString());
-                for (Object o : query.list()) {
-                    System.out.println("  " + o);
-                }
-            }
+            Transaction tx=session.beginTransaction();
+            ActivityEntity activityEntity=(ActivityEntity) session.get(ActivityEntity.class,1);
+            System.out.println(activityEntity.getStartPlace());
+
+//            GoodEntity good=new GoodEntity();
+//            good.setBrand("zhongguo");
+//            good.setCurrentPrice(100);
+//            good.setDescription("helo");
+//            good.setGoodId(1);
+//            good.setHitCount(100);
+//            good.setIsRented(1);
+//            good.setName("namg");
+//            good.setOnSaleTime(0);
+//            good.setOriginalPrice(1);
+//            good.setShopId(1);
+//            good.setTypeId(1);
+//            session.save(good);
+            tx.commit();
         } finally {
             session.close();
         }

@@ -5,16 +5,38 @@
 <hibernate-mapping>
 
     <class name="bean.GoodEntity" table="good" schema="leqi">
-        <id name="goodId" column="good_id"/>
-        <property name="shopId" column="shop_id"/>
-        <property name="typeId" column="type_id"/>
-        <property name="name" column="name"/>
-        <property name="brand" column="brand"/>
-        <property name="originalPrice" column="original_price"/>
-        <property name="currentPrice" column="current_price"/>
-        <property name="description" column="description"/>
-        <property name="isRented" column="is_rented"/>
-        <property name="hitCount" column="hit_count"/>
-        <property name="onSaleTime" column="on_sale_time"/>
+        <id name="goodId">
+            <column name="good_id" sql-type="int(11)"/>
+        </id>
+        <property name="shopId">
+            <column name="shop_id" sql-type="int(11)"/>
+        </property>
+        <property name="typeId">
+            <column name="type_id" sql-type="int(11)"/>
+        </property>
+        <property name="name">
+            <column name="name" sql-type="text"/>
+        </property>
+        <property name="brand">
+            <column name="brand" sql-type="text"/>
+        </property>
+        <property name="originalPrice">
+            <column name="original_price" sql-type="decimal(10)" precision="10"/>
+        </property>
+        <property name="currentPrice">
+            <column name="current_price" sql-type="decimal(10)" precision="10"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="text"/>
+        </property>
+        <property name="isRented">
+            <column name="is_rented" sql-type="int(11)"/>
+        </property>
+        <property name="hitCount">
+            <column name="hit_count" sql-type="int(11)"/>
+        </property>
+        <property name="onSaleTime">
+            <column name="on_sale_time" sql-type="int(11)"/>
+        </property>
     </class>
 </hibernate-mapping>

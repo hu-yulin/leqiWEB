@@ -1,7 +1,7 @@
 package bean;
 
 /**
- * Created by lenovo on 2016/12/17.
+ * Created by mbshqqb on 16-12-24.
  */
 public class GoodEntity {
     private int goodId;

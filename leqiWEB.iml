@@ -17,6 +17,7 @@
             <file>jar://D:/学习/jar/struts-2.3.31-all/struts-2.3.31/lib/struts2-json-plugin-2.3.31.jar!/struts-plugin.xml</file>
             <file>jar://D:/学习/jar/struts-2.3.31-all/struts-2.3.31/lib/struts2-core-2.3.31.jar!/struts-default.xml</file>
             <file>file://$MODULE_DIR$/src/shop_struct.xml</file>
+            <file>jar://$MODULE_DIR$/web/WEB-INF/lib/struts2-core-2.3.31.jar!/struts-default.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>

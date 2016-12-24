@@ -4,10 +4,16 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.datasource">java/com/env/jdbc/leqi</property>
-    <property name="jndi.url"></property>
+
+
+      <property name="connection.url">jdbc:mysql://119.29.111.167:3306/leqi</property>
+      <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+    <property name="connection.username">root</property>
+    <property name="connection.password">huyulin</property>
     <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
+    <mapping resource="bean/ActivityEntity.hbm.xml"/>
     <mapping resource="bean/GoodEntity.hbm.xml"/>
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
