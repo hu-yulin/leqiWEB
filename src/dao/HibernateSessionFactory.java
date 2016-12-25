@@ -1,4 +1,5 @@
 package dao;
+import bean.ZjTestEntity;
 import org.hibernate.*;
 import org.hibernate.cfg.Configuration;
 

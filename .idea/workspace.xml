@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d80b6b4-4c78-4941-8d18-4a623476b1f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ActivityPicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/AdminEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/AdminEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/AdvertisementEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/AdvertisementEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ClubEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ClubEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ClubMemberEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ClubMemberEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/GoodParameterEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/GoodPicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ParticipateActivityEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ParticipateActivityEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/PersonEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/PersonEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/RouteShareEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/RouteShareEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/RouteSharePicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ShopEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ShopEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/UserEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/UserEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/UserPicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ZjTestEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/ZjTestEntity.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/AddGoodAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/AllGoodAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/CheckShopInfoAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/GoodDatialAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/ModifyGoodAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/ModifyShopInfoAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/RemoveGoodAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/action/test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/META-INF/context.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/dao/HibernateSessionFactory.class" afterPath="$PROJECT_DIR$/out/production/leqiWEB/dao/HibernateSessionFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bean/ActivityEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/bean/ActivityEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bean/ActivityEntity.java" afterPath="$PROJECT_DIR$/src/bean/ActivityEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bean/GoodEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/bean/GoodEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bean/GoodEntity.java" afterPath="$PROJECT_DIR$/src/bean/GoodEntity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" afterPath="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shop_struct.xml" afterPath="$PROJECT_DIR$/src/shop_struct.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoodEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bean/GoodEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="-960">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#475#496#0" expanded="true" />
@@ -165,6 +124,18 @@
             <state relative-caret-position="285">
               <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateSessionFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,16 +187,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RouteShareEntity.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/RouteShareEntity.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -266,7 +227,6 @@
         <option value="dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.zj_test" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7803fbe1-4434-48e5-b605-0c04e8e60212/console.sql" />
-        <option value="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" />
         <option value="$PROJECT_DIR$/src/shop_struct.xml" />
         <option value="dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.shop_sales" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
@@ -283,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/bean/GoodEntity.java" />
         <option value="$PROJECT_DIR$/src/bean/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/bean/RouteShareEntity.java" />
+        <option value="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" />
       </list>
     </option>
   </component>
@@ -349,6 +310,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leqiWEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leqiWEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1121,7 +1100,7 @@
       <workItem from="1482062324222" duration="3489000" />
       <workItem from="1482244133311" duration="1585000" />
       <workItem from="1482571942740" duration="16204000" />
-      <workItem from="1482633348666" duration="3754000" />
+      <workItem from="1482633348666" duration="3819000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1482062677700</created>
@@ -1144,11 +1123,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482586805379</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bean层">
+      <created>1482637151537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1482637151537</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32172000" />
+    <option name="totallyTimeSpent" value="32237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1208,7 +1194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate" />
+    <MESSAGE value="bean层" />
+    <option name="LAST_COMMIT_MESSAGE" value="bean层" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1376,16 +1363,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1688,8 +1665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/GoodEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="-960">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#475#496#0" expanded="true" />
@@ -1700,6 +1677,16 @@
             <element signature="e#935#936#0" expanded="true" />
             <element signature="e#1009#1010#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
