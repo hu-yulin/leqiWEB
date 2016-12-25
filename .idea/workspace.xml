@@ -281,7 +281,7 @@
       <file leaf-file-name="HibernateSessionFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="133">
               <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1291,7 +1291,7 @@
       <workItem from="1482244133311" duration="1585000" />
       <workItem from="1482571942740" duration="16204000" />
       <workItem from="1482633348666" duration="3848000" />
-      <workItem from="1482653735139" duration="33000" />
+      <workItem from="1482653735139" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1482062677700</created>
@@ -1335,11 +1335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482653763533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bean层">
+      <created>1482653776862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1482653776862</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32299000" />
+    <option name="totallyTimeSpent" value="32355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="52" width="1281" height="716" extended-state="0" />
@@ -1972,7 +1979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="133">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
