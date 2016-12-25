@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context reloadable="true">
- <Resource name="jdbc/leqi" auth="Container" type="javax.sql.DataSource"
- 	maxActice="100" maxIdle="30" maxWait="10000"
- 	username="root" password="huyulin" driverClassName="com.mysql.jdbc.Driver"
- 	url="jdbc:mysql://119.29.111.167:3306/leqi?characterEncoding=UTF-8"/>
-</Context>

@@ -4,15 +4,15 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="bean.ActivityEntity" table="activity" schema="leqi">
-        <id name="activityId">
-            <column name="activity_id" sql-type="int(11)"/>
+    <class name="bean.RouteShareEntity" table="route_share" schema="leqi">
+        <id name="shareId">
+            <column name="share_id" sql-type="int(11)"/>
         </id>
         <property name="userId">
             <column name="user_id" sql-type="int(11)"/>
         </property>
-        <property name="title">
-            <column name="title" sql-type="text"/>
+        <property name="theme">
+            <column name="theme" sql-type="text"/>
         </property>
         <property name="description">
             <column name="description" sql-type="text"/>
@@ -29,23 +29,14 @@
         <property name="endPlace">
             <column name="end_place" sql-type="text"/>
         </property>
-        <property name="releaseTime">
-            <column name="release_time" sql-type="timestamp"/>
-        </property>
-        <property name="participateWay">
-            <column name="participate_way" sql-type="text" not-null="true"/>
-        </property>
-        <property name="requirement">
-            <column name="requirement" sql-type="text" not-null="true"/>
+        <property name="hitCount">
+            <column name="hit_count" sql-type="int(11)"/>
         </property>
     </class>
-    <class name="bean.ActivityPicEntity" table="activity_pic" schema="leqi">
-        <id name="picId">
-            <column name="pic_id" sql-type="int(11)"/>
+    <class name="bean.RouteSharePicEntity" table="route_share_pic" schema="leqi">
+        <id name="shareId">
+            <column name="share_id" sql-type="int(11)"/>
         </id>
-        <property name="activityId">
-            <column name="activity_id" sql-type="int(11)"/>
-        </property>
         <property name="path">
             <column name="path" sql-type="text"/>
         </property>

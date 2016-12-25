@@ -8,12 +8,6 @@
         <id name="goodId">
             <column name="good_id" sql-type="int(11)"/>
         </id>
-        <property name="shopId">
-            <column name="shop_id" sql-type="int(11)"/>
-        </property>
-        <property name="typeId">
-            <column name="type_id" sql-type="int(11)"/>
-        </property>
         <property name="name">
             <column name="name" sql-type="text"/>
         </property>
@@ -37,6 +31,31 @@
         </property>
         <property name="onSaleTime">
             <column name="on_sale_time" sql-type="int(11)"/>
+        </property>
+        <property name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </property>
+    </class>
+    <class name="bean.GoodParameterEntity" table="good_parameter" schema="leqi">
+        <id name="pId">
+            <column name="p_id" sql-type="int(11)"/>
+        </id>
+        <property name="goodId">
+            <column name="good_id" sql-type="int(11)"/>
+        </property>
+        <property name="parameterName">
+            <column name="parameter_name" sql-type="text"/>
+        </property>
+        <property name="parameterValue">
+            <column name="parameter_value" sql-type="text"/>
+        </property>
+    </class>
+    <class name="bean.GoodPicEntity" table="good_pic" schema="leqi">
+        <id name="goodId">
+            <column name="good_id" sql-type="int(11)"/>
+        </id>
+        <property name="path">
+            <column name="path" sql-type="text"/>
         </property>
     </class>
 </hibernate-mapping>

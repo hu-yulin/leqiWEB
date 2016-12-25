@@ -1,12 +1,13 @@
 package bean;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
- * Created by mbshqqb on 16-12-24.
+ * Created by mbshqqb on 16-12-25.
  */
 public class GoodEntity {
     private int goodId;
-    private int shopId;
-    private int typeId;
     private String name;
     private String brand;
     private int originalPrice;
@@ -15,6 +16,26 @@ public class GoodEntity {
     private int isRented;
     private int hitCount;
     private int onSaleTime;
+    private int userId;
+
+    private Set<GoodParameterEntity>goodParameterEntities=new HashSet<GoodParameterEntity>();
+    private Set<GoodPicEntity> goodPicEntities=new HashSet<GoodPicEntity>();
+
+    public Set<GoodParameterEntity> getGoodParameterEntities() {
+        return goodParameterEntities;
+    }
+
+    public void setGoodParameterEntities(Set<GoodParameterEntity> goodParameterEntities) {
+        this.goodParameterEntities = goodParameterEntities;
+    }
+
+    public Set<GoodPicEntity> getGoodPicEntities() {
+        return goodPicEntities;
+    }
+
+    public void setGoodPicEntities(Set<GoodPicEntity> goodPicEntities) {
+        this.goodPicEntities = goodPicEntities;
+    }
 
     public int getGoodId() {
         return goodId;
@@ -22,22 +43,6 @@ public class GoodEntity {
 
     public void setGoodId(int goodId) {
         this.goodId = goodId;
-    }
-
-    public int getShopId() {
-        return shopId;
-    }
-
-    public void setShopId(int shopId) {
-        this.shopId = shopId;
-    }
-
-    public int getTypeId() {
-        return typeId;
-    }
-
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
     }
 
     public String getName() {
@@ -104,6 +109,14 @@ public class GoodEntity {
         this.onSaleTime = onSaleTime;
     }
 
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -112,13 +125,12 @@ public class GoodEntity {
         GoodEntity that = (GoodEntity) o;
 
         if (goodId != that.goodId) return false;
-        if (shopId != that.shopId) return false;
-        if (typeId != that.typeId) return false;
         if (originalPrice != that.originalPrice) return false;
         if (currentPrice != that.currentPrice) return false;
         if (isRented != that.isRented) return false;
         if (hitCount != that.hitCount) return false;
         if (onSaleTime != that.onSaleTime) return false;
+        if (userId != that.userId) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
         if (brand != null ? !brand.equals(that.brand) : that.brand != null) return false;
         if (description != null ? !description.equals(that.description) : that.description != null) return false;
@@ -129,8 +141,6 @@ public class GoodEntity {
     @Override
     public int hashCode() {
         int result = goodId;
-        result = 31 * result + shopId;
-        result = 31 * result + typeId;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         result = 31 * result + (brand != null ? brand.hashCode() : 0);
         result = 31 * result + originalPrice;
@@ -139,6 +149,7 @@ public class GoodEntity {
         result = 31 * result + isRented;
         result = 31 * result + hitCount;
         result = 31 * result + onSaleTime;
+        result = 31 * result + userId;
         return result;
     }
 }
