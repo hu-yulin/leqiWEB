@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.leqi.bean.ActivityParticipantEntity" table="activity_participant" schema="leqi">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="riderId">
+            <column name="rider_id" sql-type="int(11)"/>
+        </property>
+        <property name="activityId">
+            <column name="activity_id" sql-type="int(11)"/>
+        </property>
+    </class>
+</hibernate-mapping>

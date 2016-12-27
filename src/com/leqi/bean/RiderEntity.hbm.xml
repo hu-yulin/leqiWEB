@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.leqi.bean.RiderEntity" table="rider" schema="leqi">
+        <id name="riderId">
+            <column name="rider_id" sql-type="int(11)"/>
+        </id>
+        <property name="nickname">
+            <column name="nickname" sql-type="text"/>
+        </property>
+        <property name="gender">
+            <column name="gender" sql-type="text"/>
+        </property>
+        <property name="birthday">
+            <column name="birthday" sql-type="date"/>
+        </property>
+        <property name="timeStartRide">
+            <column name="time_start_ride" sql-type="date"/>
+        </property>
+        <property name="faceImg">
+            <column name="face_img" sql-type="text"/>
+        </property>
+        <property name="contact">
+            <column name="contact" sql-type="text"/>
+        </property>
+        <property name="signature">
+            <column name="signature" sql-type="text"/>
+        </property>
+        <property name="province">
+            <column name="province" sql-type="text"/>
+        </property>
+        <property name="city">
+            <column name="city" sql-type="text"/>
+        </property>
+        <property name="district">
+            <column name="district" sql-type="text"/>
+        </property>
+        <property name="detail">
+            <column name="detail" sql-type="text"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -6,7 +6,7 @@
 
 <struts>
     <package name="management" extends="struts-default">
-        <action name="managementHome" class="action.test" method="manage">
+        <action name="managementHome" class="com.leqi.action.test" method="manage">
             <result>/manage/managementHome.jsp</result>
         </action>
     </package>

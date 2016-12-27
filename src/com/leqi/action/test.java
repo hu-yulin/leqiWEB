@@ -1,6 +1,6 @@
-package action;
+package com.leqi.action;
 
-        import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ActionSupport;
 
 
 /**

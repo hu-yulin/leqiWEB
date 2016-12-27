@@ -7,11 +7,29 @@
 
       <property name="connection.url">jdbc:mysql://119.29.111.167:3306/leqi</property>
       <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
       <property name="connection.username">root</property>
       <property name="connection.password">huyulin</property>
       <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
+<<<<<<< HEAD
+=======
+      <mapping resource="bean/ActivityParticipantEntity.hbm.xml"/>
+      <mapping resource="bean/AdminEntity.hbm.xml"/>
+      <mapping resource="bean/AdvertisementEntity.hbm.xml"/>
+      <mapping resource="bean/ClubEntity.hbm.xml"/>
+      <mapping resource="bean/ClubActivityEntity.hbm.xml"/>
+      <mapping resource="bean/ClubMemberEntity.hbm.xml"/>
+      <mapping resource="bean/GoodEntity.hbm.xml"/>
+      <mapping resource="bean/RiderEntity.hbm.xml"/>
+      <mapping resource="bean/RouteSharedEntity.hbm.xml"/>
+      <mapping resource="bean/ShopEntity.hbm.xml"/>
+      <mapping resource="bean/UserEntity.hbm.xml"/>
+      <mapping resource="bean/ZjTestEntity.hbm.xml"/>
+>>>>>>> origin/master
 
   </session-factory>
 </hibernate-configuration>

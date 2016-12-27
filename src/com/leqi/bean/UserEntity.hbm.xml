@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.leqi.bean.UserEntity" table="user" schema="leqi">
+        <id name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </id>
+        <property name="username">
+            <column name="username" sql-type="text"/>
+        </property>
+        <property name="password">
+            <column name="password" sql-type="text"/>
+        </property>
+        <property name="token">
+            <column name="token" sql-type="text"/>
+        </property>
+        <property name="startTime">
+            <column name="start_time" sql-type="timestamp" not-null="true"/>
+        </property>
+        <property name="userType">
+            <column name="user_type" sql-type="int(11)" not-null="true"/>
+        </property>
+        <set name="userPicEntitySet" lazy="false">
+            <key column="user_id"/>
+            <one-to-many class="com.leqi.bean.UserPicEntity"/>
+        </set>
+    </class>
+
+    <class name="com.leqi.bean.UserPicEntity" table="user_pic" schema="leqi">
+        <id name="picId">
+            <column name="pic_id" sql-type="int(11)"/>
+        </id>
+        <property name="userId">
+            <column name="user_id" sql-type="int(11)"/>
+        </property>
+        <property name="path">
+            <column name="path" sql-type="text"/>
+        </property>
+    </class>
+</hibernate-mapping>
