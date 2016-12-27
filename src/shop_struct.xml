@@ -6,6 +6,17 @@
 
 <struts>
     <package name="test" extends="struts-default" >
-
+        <action name="hello" class="action.test" method="execute">
+            <result>/shop-jsp/shopHomePage.jsp</result>
+        </action>
+        <action name="addGood" class="action.test" method="addGood">
+            <result>/shop-jsp/addGood.jsp</result>
+        </action>
+        <action name="allGood" class="action.test" method="allGood">
+            <result>/shop-jsp/allGood.jsp</result>
+        </action>
+        <action name="goodDetail" class="action.test" method="goodDetail">
+            <result>/shop-jsp/goodDetail.jsp</result>
+        </action>
     </package>
 </struts>

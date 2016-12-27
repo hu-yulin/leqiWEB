@@ -1,0 +1,202 @@
+body{
+    background: rgb(245,245,245);
+}
+.file_item{
+    position: relative;
+    float: left;
+    margin: 10px;
+    width:  110px;
+    height: 110px;
+    background: url("../../pic/icon/add.png")  no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.file_item input{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.file_item .file_head{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    transition: height 0.5s;
+}
+.file_item:hover .file_head{
+    height: 27px;
+}
+.file_item .file_foot{
+    position: absolute;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    height: 0px;
+    background-color: rgba(0,0,0,0.5);
+    transition: height 0.5s;
+}
+.file_item:hover .file_foot{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.cancel{
+    margin-top: 6px;
+    margin-right: 5px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    float: right;
+    background: url("../../pic/icon/delete1.png") ;
+    background-size: 100%;
+}
+.cancel:hover{
+    background: url("../../pic/icon/delete2.png");
+    background-size: 100%;
+}
+.user_icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: url("../../pic/icon/add.png") no-repeat center;
+    background-size: cover;
+}
+
+.tour_item{
+    padding: 10px;
+    height: 279px;
+}
+.tour_item a{
+    position: relative;
+    display: block;
+    background-color: #3a3a3a;
+    height: 100%;
+}
+.tour_item .tour_bac{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:center no-repeat;
+    opacity: 0.7;
+    background-size: 100% 100%;
+    transition: background-size 1.5s;
+}
+.tour_item:hover{
+    color: #ffffff;
+}
+.tour_item:hover .tour_bac{
+    background-size: 130% 130%;
+    opacity: 0.6;
+}
+.tour_item .tour_content{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color: #ffffff;
+    height: 100%;
+    display: table;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tour_item .tour_user{
+    bottom: 10px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+.tour_item .tour_user .profile-img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tour_item .tour_user .profile-img span{
+    color: #ffffff;
+}
+.tour_item .tour_user .profile-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 0 5px 0 12px;
+    display: inline-block;
+}
+.tour_item .tour_content .tour_inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.tour_item .tour_content .tour_inner p{
+    font-size: 15px;
+}
+.tour_item .tour_content .tour_inner .tour_title{
+    font-size: 0.9em;
+    padding: 0 20px;
+    margin-bottom: 6px;
+}
+
+.user_icon input{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.load_btn{
+    margin: 20px;
+    width: 60%;
+    height: 40px;
+}
+
+.foot{
+    background: rgba(0,0,0,0.8);
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.foot ul{
+    list-style-type: none;
+    margin: 0;
+}
+.foot ul li{
+    margin: 5px;
+}
+
+.user_form input{
+    height: 51px;
+}
+.form_btn{
+    margin-bottom: 30px;
+}
+.form_btn button{
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+}
+.form_load_btn{
+    background-color: #55cd7d;
+}
+.form_register_btn{
+    background-color: #FD9665;
+}

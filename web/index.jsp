@@ -12,5 +12,17 @@
   </head>
   <body>
   $END$struct hello
+
+  <form name="test" action="hello.action">
+       <textarea name="data">
+
+       </textarea>
+    <button type="submit" value="提交"></button>
+  </form>
+  <a href="hello.action">home</a>
+  <a href="addGood.action">添加</a>
+  <a href="goodDetail.action">goodDetail</a>
+  <a href="allGood.action">all</a>
+  <a href="managementHome.action">managementHome</a>
   </body>
 </html>

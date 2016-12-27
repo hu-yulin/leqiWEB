@@ -27,15 +27,7 @@ public class HibernateSessionFactory {
         final Session session = getSession();
         try {
             Transaction tx=session.beginTransaction();
-//            ActivityEntity activityEntity=session.get(ActivityEntity.class,1);
-//            Iterator<ActivityPicEntity> iterator=activityEntity.getActivityPicEntities().iterator();
-//            while(iterator.hasNext()){
-//                System.out.println(iterator.next().getPath());
-//            }
 
-            ZjTestEntity zjTestEntity=session.get(ZjTestEntity.class,10);
-            System.out.println(zjTestEntity.getName());
-            tx.commit();
         } finally {
             session.close();
         }

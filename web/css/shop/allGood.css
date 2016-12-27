@@ -1,0 +1,24 @@
+.good_item{
+    height: 320px;
+    margin-bottom: 20px;
+    /*margin-right: 10px;*/
+    /*background-color: #ffffff;*/
+    overflow: hidden;
+}
+
+.good_sale{
+    background-color: #ffffff;
+    color: red;
+    font-size: 20px;
+    width: 100%;
+}
+
+.good_name{
+    background-color: #ffffff;
+    display:block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+}
