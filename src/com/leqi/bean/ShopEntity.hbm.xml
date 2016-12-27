@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.leqi.bean.ShopEntity" table="shop" schema="leqi">
+        <id name="shopId">
+            <column name="shop_id" sql-type="int(11)"/>
+        </id>
+        <property name="shopName">
+            <column name="shop_name" sql-type="text"/>
+        </property>
+        <property name="ownerName">
+            <column name="owner_name" sql-type="text"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="text"/>
+        </property>
+        <property name="level">
+            <column name="level" sql-type="text"/>
+        </property>
+        <property name="tel">
+            <column name="tel" sql-type="text"/>
+        </property>
+        <property name="collectedCount">
+            <column name="collected_count" sql-type="text"/>
+        </property>
+        <property name="province">
+            <column name="province" sql-type="text"/>
+        </property>
+        <property name="city">
+            <column name="city" sql-type="text"/>
+        </property>
+        <property name="district">
+            <column name="district" sql-type="text"/>
+        </property>
+        <property name="detail">
+            <column name="detail" sql-type="text"/>
+        </property>
+    </class>
+</hibernate-mapping>

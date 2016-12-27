@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.leqi.bean.AdvertisementEntity" table="advertisement" schema="leqi">
+        <id name="adId">
+            <column name="ad_id" sql-type="int(11)"/>
+        </id>
+        <property name="name">
+            <column name="name" sql-type="text"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="text"/>
+        </property>
+        <property name="picPath">
+            <column name="pic_path" sql-type="text"/>
+        </property>
+        <property name="shopId">
+            <column name="shop_id" sql-type="int(11)"/>
+        </property>
+    </class>
+</hibernate-mapping>

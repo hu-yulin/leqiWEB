@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="bean.GoodEntity" table="good" schema="leqi">
+    <class name="com.leqi.bean.GoodEntity" table="good" schema="leqi">
         <id name="goodId">
             <column name="good_id" sql-type="int(11)"/>
         </id>
@@ -38,14 +38,14 @@
 
         <set name="goodPicEntitySet" lazy="false">
             <key column="good_id"/>
-            <one-to-many class="bean.GoodPicEntity"/>
+            <one-to-many class="com.leqi.bean.GoodPicEntity"/>
         </set>
         <set name="goodParameterEntitySet" lazy="false">
             <key column="good_id"/>
-            <one-to-many class="bean.GoodParameterEntity"/>
+            <one-to-many class="com.leqi.bean.GoodParameterEntity"/>
         </set>
     </class>
-    <class name="bean.GoodPicEntity" table="good_pic" schema="leqi">
+    <class name="com.leqi.bean.GoodPicEntity" table="good_pic" schema="leqi">
         <id name="picId">
             <column name="pic_id" sql-type="int(11)"/>
         </id>
@@ -56,7 +56,7 @@
             <column name="path" sql-type="text"/>
         </property>
     </class>
-    <class name="bean.GoodParameterEntity" table="good_parameter" schema="leqi">
+    <class name="com.leqi.bean.GoodParameterEntity" table="good_parameter" schema="leqi">
         <id name="pId">
             <column name="p_id" sql-type="int(11)"/>
         </id>

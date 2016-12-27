@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.leqi.bean.RouteSharedEntity" table="route_shared" schema="leqi">
+        <id name="shareId">
+            <column name="share_id" sql-type="int(11)"/>
+        </id>
+        <property name="riderId">
+            <column name="rider_id" sql-type="int(11)"/>
+        </property>
+        <property name="theme">
+            <column name="theme" sql-type="text"/>
+        </property>
+        <property name="description">
+            <column name="description" sql-type="text"/>
+        </property>
+        <property name="startTime">
+            <column name="start_time" sql-type="timestamp" not-null="true"/>
+        </property>
+        <property name="endTime">
+            <column name="end_time" sql-type="timestamp" not-null="true"/>
+        </property>
+        <property name="startPlace">
+            <column name="start_place" sql-type="text"/>
+        </property>
+        <property name="endPlace">
+            <column name="end_place" sql-type="text"/>
+        </property>
+        <property name="hitCount">
+            <column name="hit_count" sql-type="int(11)"/>
+        </property>
+        <set name="routeSharePicEntitySet" lazy="false">
+            <key column="share_id"/>
+            <one-to-many class="com.leqi.bean.RouteSharePicEntity"/>
+        </set>
+    </class>
+    <class name="com.leqi.bean.RouteSharePicEntity" table="route_share_pic" schema="leqi">
+        <id name="picId">
+            <column name="pic_id" sql-type="int(11)"/>
+        </id>
+        <property name="shareId">
+            <column name="share_id" sql-type="int(11)"/>
+        </property>
+        <property name="path">
+            <column name="path" sql-type="text"/>
+        </property>
+    </class>
+</hibernate-mapping>

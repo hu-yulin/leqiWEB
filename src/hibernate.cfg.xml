@@ -7,8 +7,22 @@
 
       <property name="connection.url">jdbc:mysql://119.29.111.167:3306/leqi</property>
       <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <property name="connection.username">root</property>
+      <property name="connection.password">huyulin</property>
       <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
+      <mapping resource="com/leqi/bean/ActivityParticipantEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/AdminEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/AdvertisementEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/ClubEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/ClubActivityEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/ClubMemberEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/GoodEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/RiderEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/RouteSharedEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/ShopEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/UserEntity.hbm.xml"/>
+      <mapping resource="com/leqi/bean/ZjTestEntity.hbm.xml"/>
 
   </session-factory>
 </hibernate-configuration>
