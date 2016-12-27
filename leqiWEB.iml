@@ -27,7 +27,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" value="7803fbe1-4434-48e5-b605-0c04e8e60212" />
+          <unit-entry name="hibernate.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />

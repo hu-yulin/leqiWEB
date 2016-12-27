@@ -6,16 +6,16 @@
 
 <struts>
     <package name="test" extends="struts-default" >
-        <action name="hello" class="action.test" method="execute">
+        <action name="hello" class="com.leqi.action.test" method="execute">
             <result>/shop-jsp/shopHomePage.jsp</result>
         </action>
-        <action name="addGood" class="action.test" method="addGood">
+        <action name="addGood" class="com.leqi.action.test" method="addGood">
             <result>/shop-jsp/addGood.jsp</result>
         </action>
-        <action name="allGood" class="action.test" method="allGood">
+        <action name="allGood" class="com.leqi.action.test" method="allGood">
             <result>/shop-jsp/allGood.jsp</result>
         </action>
-        <action name="goodDetail" class="action.test" method="goodDetail">
+        <action name="goodDetail" class="com.leqi.action.test" method="goodDetail">
             <result>/shop-jsp/goodDetail.jsp</result>
         </action>
     </package>

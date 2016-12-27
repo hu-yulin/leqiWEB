@@ -2,98 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d80b6b4-4c78-4941-8d18-4a623476b1f2" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/good/good1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/good/good2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/good/good3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/good/good4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/good/good5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/icon/add.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/icon/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/icon/delete1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/icon/delete2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/pageNeed/bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/roll1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/roll2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pic/roll3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/management.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/manage/index1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/shop/allGood.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/shop/choose_pic_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/shop/good_detial.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/shop/head.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/shop/shop_home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-2.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/shop/picjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/left_bar.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/managementAllShops.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/managementCheckGoodDetail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/managementHome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/shop-jsp/addGood.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/shop-jsp/allGood.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/shop-jsp/goodDetail.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leqiWEB/action/test.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leqiWEB/bean/GoodEntity.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leqiWEB/bean/GoodEntity.hbm.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/action/test.class" afterPath="$PROJECT_DIR$/out/production/leqiWEB/action/test.class" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ActivityParticipantEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ActivityParticipantEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/AdminEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/AdminEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/AdvertisementEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/AdvertisementEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityPicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubMemberEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubMemberEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/GoodEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/GoodEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/GoodParameterEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/GoodPicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/RiderEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/RiderEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/RouteSharePicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/RouteSharedEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/RouteSharedEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ShopEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ShopEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/UserEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/UserEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/UserPicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ZjTestEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ZjTestEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/bean/SessionFactoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/HibernateSessionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/bean/GoodEntity.class" afterPath="$PROJECT_DIR$/out/production/leqiWEB/bean/GoodEntity.class" />
->>>>>>> origin/master
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/dao/HibernateSessionFactory.class" afterPath="$PROJECT_DIR$/out/production/leqiWEB/dao/HibernateSessionFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leqiWEB/dao/HibernateSessionFactory.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leqiWEB.iml" afterPath="$PROJECT_DIR$/leqiWEB.iml" />
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/shop_struct.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/shop_struct.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/struts.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/test.java" afterPath="$PROJECT_DIR$/src/action/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" afterPath="$PROJECT_DIR$/src/dao/HibernateSessionFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shop_struct.xml" afterPath="$PROJECT_DIR$/src/shop_struct.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop-jsp/shopHomePage.jsp" afterPath="$PROJECT_DIR$/web/shop-jsp/shopHomePage.jsp" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/bean/GoodEntity.hbm.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/bean/GoodEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
->>>>>>> origin/master
     </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,13 +32,12 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
       <PATH_ELEMENT>
         <option name="myItemId" value="MySQL - leqi@119.29.111.167" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
@@ -155,7 +70,6 @@
         <option name="myItemId" value="club_activity_pic" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
->>>>>>> origin/master
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -164,32 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
       <file leaf-file-name="HibernateSessionFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-=======
-      <file leaf-file-name="HibernateSessionFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/HibernateSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-              <folding>
-                <element signature="e#4498#4499#0" expanded="false" />
-                <element signature="e#4534#4535#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionFactoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/bean/SessionFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
->>>>>>> origin/master
+            <state relative-caret-position="898">
+              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -239,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/action/ModifyGoodAction.java" />
         <option value="$PROJECT_DIR$/src/action/ModifyShopInfoAction.java" />
         <option value="$PROJECT_DIR$/src/action/RemoveGoodAction.java" />
+        <option value="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
         <option value="dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.zj_test" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
@@ -266,13 +160,9 @@
         <option value="$PROJECT_DIR$/src/bean/UserEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/src/bean/RouteSharedEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />
-=======
         <option value="$PROJECT_DIR$/src/com/leqi/bean/ActivityParticipantEntity.java" />
         <option value="$PROJECT_DIR$/src/test/bean/SessionFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/com/leqi/dao/HibernateSessionFactory.java" />
->>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -292,15 +182,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
-=======
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
->>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -327,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -358,7 +241,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,103 +256,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="Scratches" />
-=======
->>>>>>> origin/master
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -680,65 +473,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="CfmlUnitRunConfigurationType" factoryName="MXUnit" method="" path="" scope="Component" webpath="">
       <method />
     </configuration>
@@ -945,28 +679,6 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="NodeWebKit" factoryName="NW.js">
@@ -1200,14 +912,10 @@
       <workItem from="1482571942740" duration="16204000" />
       <workItem from="1482633348666" duration="3848000" />
       <workItem from="1482653735139" duration="4948000" />
-<<<<<<< HEAD
-      <workItem from="1482659115597" duration="2600000" />
-      <workItem from="1482802731145" duration="205000" />
-=======
       <workItem from="1482659115597" duration="3352000" />
       <workItem from="1482754469649" duration="7816000" />
       <workItem from="1482802030665" duration="1000" />
->>>>>>> origin/master
+      <workItem from="1482815032052" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1482062677700</created>
@@ -1276,88 +984,47 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="40019000" />
+    <option name="totallyTimeSpent" value="48448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="735" extended-state="0" />
-    <editor active="false" />
-=======
-    <option name="totallyTimeSpent" value="48383000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
->>>>>>> origin/master
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14791988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73754156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5498339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31432974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29328358" sideWeight="0.20772947" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26934522" sideWeight="0.12172573" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23596358" sideWeight="0.79227054" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382752" sideWeight="0.87827426" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15933232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24622357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17411402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31432974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26963747" sideWeight="0.12172573" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26963747" sideWeight="0.87827426" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15716487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14791988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17411402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15716487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1407,89 +1074,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Class.class" />
-    <entry file="file://$PROJECT_DIR$/web/shop-jsp/shopHomePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/AddGoodAction.java" />
-    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml" />
-    <entry file="file://$PROJECT_DIR$/leqiWEB.iml">
-      <provider selected="true" editor-type-id="text-editor">
-=======
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.user_pic">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.user_pic" />
     <entry file="file://$PROJECT_DIR$/src/bean/RouteShareEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/bean/PersonEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/bean/ActivityEntity.java" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.activity">
-      <provider editor-type-id="text-editor">
->>>>>>> origin/master
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-<<<<<<< HEAD
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-=======
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.activity_pic">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> origin/master
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.zj_test" />
-    <entry file="file://$PROJECT_DIR$/src/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/shop_struct.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-=======
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.activity" />
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.activity_pic" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7803fbe1-4434-48e5-b605-0c04e8e60212/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
->>>>>>> origin/master
+          <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.shop_sales" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good_parameter" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.user_pic" />
-=======
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/AdminEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/bean/ParticipateActivityEntity.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/AdvertisementEntity.hbm.xml" />
@@ -1498,43 +1095,10 @@
     <entry file="file://$PROJECT_DIR$/src/bean/PersonEntity.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/bean/RouteShareEntity.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ZjTestEntity.hbm.xml" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club" />
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.user" />
     <entry file="file://$PROJECT_DIR$/src/bean/ActivityEntity.hbm.xml" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good" />
     <entry file="uml://DATABASE/7803fbe1-4434-48e5-b605-0c04e8e60212">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1574,7 +1138,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/AdminEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1582,94 +1146,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ActivityParticipantEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/ActivityPicEntity.hbm.xml" />
->>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/src/bean/ActivityPicEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/bean/UserPicEntity.hbm.xml" />
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/bean/RouteSharePicEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/UserEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/RouteShareEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/PersonEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/GoodParameterEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/GoodEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ActivityEntity.java" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good_pic" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.activity" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.activity_pic" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7803fbe1-4434-48e5-b605-0c04e8e60212/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/AdminEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ClubEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ParticipateActivityEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/AdminEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/AdvertisementEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ClubEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ClubMemberEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/GoodEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/PersonEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/RouteShareEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ShopEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/UserEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ZjTestEntity.hbm.xml" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.user" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ActivityEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/ActivityPicEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/src/bean/GoodPicEntity.hbm.xml" />
-    <entry file="file://$PROJECT_DIR$/数据库表关系图.uml" />
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good" />
-    <entry file="uml://DATABASE/7803fbe1-4434-48e5-b605-0c04e8e60212">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>7803fbe1-4434-48e5-b605-0c04e8e60212</OriginalElement>
-          <nodes>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.activity_participant</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.good</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.good_pic</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.zj_test</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.good_parameter</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.route_share_pic</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.club_activity</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.club_member</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.activity_pic</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.admin</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.shop</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.user_pic</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.rider</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.route_shared</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.advertisement</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.user</node>
-            <node x="" y="">7803fbe1-4434-48e5-b605-0c04e8e60212.TABLE:leqi.club</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5049151027703307" x="643.0" y="630.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-=======
     <entry file="file://$PROJECT_DIR$/src/bean/RouteSharePicEntity.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/bean/GoodPicEntity.hbm.xml" />
     <entry file="file://$PROJECT_DIR$/src/bean/GoodParameterEntity.hbm.xml" />
@@ -1677,110 +1161,59 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/RouteSharedEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#526#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club_activity">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club_activity_pic">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club_activity" />
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.club_activity_pic" />
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/GoodParameterEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#588#611#0" expanded="true" />
-          </folding>
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ClubEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good_pic">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/17c5d399/7803fbe1-4434-48e5-b605-0c04e8e60212/leqi.good_pic" />
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/GoodEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#489#0" expanded="true" />
-            <element signature="e#563#584#0" expanded="true" />
-          </folding>
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/RouteSharePicEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ShopEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1788,15 +1221,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ActivityParticipantEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/GoodEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
-          <caret line="44" column="65" lean-forward="false" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1804,7 +1236,7 @@
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1812,7 +1244,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1820,20 +1252,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#415#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ShopEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1841,7 +1267,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/RouteSharedEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1849,40 +1275,23 @@
     <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/UserEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
->>>>>>> origin/master
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/bean/SessionFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/HibernateSessionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding>
-            <element signature="e#4498#4499#0" expanded="false" />
-            <element signature="e#4534#4535#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/bean/SessionFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="234">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/HibernateSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-=======
-        <state relative-caret-position="225">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
->>>>>>> origin/master
+        <state relative-caret-position="898">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
           <folding />
         </state>
       </provider>
