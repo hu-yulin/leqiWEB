@@ -227,31 +227,24 @@
         <data-type>text</data-type>
       </column>
       <column id="68" parent="9" name="brand">
-        <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
       <column id="69" parent="9" name="original_price">
-        <mandatory>1</mandatory>
         <data-type>decimal(10)</data-type>
       </column>
       <column id="70" parent="9" name="current_price">
-        <mandatory>1</mandatory>
         <data-type>decimal(10)</data-type>
       </column>
       <column id="71" parent="9" name="description">
-        <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
       <column id="72" parent="9" name="is_rented">
-        <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
       <column id="73" parent="9" name="hit_count">
-        <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
       <column id="74" parent="9" name="on_sale_time">
-        <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
       <key id="75" parent="9" name="PRIMARY">
@@ -264,11 +257,9 @@
         <sequence-identity>1</sequence-identity>
       </column>
       <column id="77" parent="10" name="good_id">
-        <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
       <column id="78" parent="10" name="parameter_name">
-        <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
       <column id="79" parent="10" name="parameter_value">
@@ -489,6 +480,7 @@
       <column id="133" parent="17" name="pic_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
       </column>
       <key id="134" parent="17" name="PRIMARY">
         <columns>pic_id</columns>

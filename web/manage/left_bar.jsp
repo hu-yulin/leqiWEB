@@ -20,7 +20,7 @@
     <ul id="menu">
         <li class="menu-list"> <i  class="glyph-icon xlcd" style="padding-left:0px;padding-right:0px"></i>商家管理<s class="sz"></s>
             <ul>
-                <li><a href="#"><i class="glyph-icon"></i>商家审核</a></li>
+                <li><a href="#"><i class="glyph-icon"></i>添加商家</a></li>
                 <li><a href="#"><i class="glyph-icon"></i>全部商家</a></li>
 
             </ul>
@@ -28,7 +28,7 @@
 
         <li class="menu-list"> <i  class="glyph-icon xlcd" style="padding-left:0px;padding-right:0px"></i>俱乐部管理<s class="sz"></s>
             <ul>
-                <li><a href="#"><i class="glyph-icon"></i>俱乐部审核</a></li>
+                <li><a href="#"><i class="glyph-icon"></i>添加俱乐部</a></li>
                 <li><a href="#"><i class="glyph-icon"></i>俱乐部活动</a></li>
                 <li><a href="#"><i class="glyph-icon"></i>俱乐部列表</a></li>
 

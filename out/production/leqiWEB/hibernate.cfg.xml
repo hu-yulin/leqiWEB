@@ -5,11 +5,12 @@
 <hibernate-configuration>
   <session-factory>
 
-      <property name="connection.url">jdbc:mysql://119.29.111.167:3306/leqi</property>
+      <property name="connection.url">jdbc:mysql://119.29.111.167:3306/leqi?characterEncoding=UTF-8</property>
       <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
       <property name="connection.username">root</property>
       <property name="connection.password">huyulin</property>
       <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+      <property name="show_sql">true</property>
 
       <mapping resource="com/leqi/bean/ActivityParticipantEntity.hbm.xml"/>
       <mapping resource="com/leqi/bean/AdminEntity.hbm.xml"/>

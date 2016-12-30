@@ -42,78 +42,87 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="gridSystemModalLabel">修改店铺信息</h4>
             </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="row" style="margin-top:20px;">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="input-group">
-                                <span class="input-group-addon" >店铺名：</span>
-                                <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+
+            <form action="modifyShopInfo.action" method="post">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row" style="margin-top:20px;">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >店铺名：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.shopName" value="${shop.shopName}"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row" style="margin-top:10px;">
-                        <div class="col-md-4 col-md-offset-1">
-                            <div class="input-group">
-                                <span class="input-group-addon" >店铺省：</span>
-                                <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                        <div class="row" style="margin-top:10px;">
+                            <div class="col-md-3 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >店铺省：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.province" value="${shop.province}"/>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >市：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.city" value="${shop.city}"/>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >区：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.district" value="${shop.district}"/>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-5 col-md-offset-1">
-                            <div class="input-group">
-                                <span class="input-group-addon" >店铺市：</span>
-                                <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+
+                        <div class="row" style="margin-top:10px;">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >店铺具体地址：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.detail" value="${shop.detail}"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row" style="margin-top:10px;">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="input-group">
-                                <span class="input-group-addon" >店铺具体地址：</span>
-                                <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                        <div class="row" style="margin-top:10px;">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >店主：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.ownerName" value="${shop.ownerName}"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row" style="margin-top:10px;">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="input-group">
-                                <span class="input-group-addon" >店主：</span>
-                                <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+
+
+                        <div class="row" style="margin-top:10px;">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="input-group">
+                                    <span class="input-group-addon" >店铺联系方式：</span>
+                                    <input type="text" class="form-control"  aria-describedby="sizing-addon2" name="shop.tel" value="${shop.tel}"/>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-
-
-                    <div class="row" style="margin-top:10px;">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="input-group">
-                                <span class="input-group-addon" >店铺联系方式：</span>
-                                <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                        <div class="row"  style="margin-top:10px;" >
+                            <div class="col-md-2 col-md-offset-1">
+                                <span class="input-group-addon" >店铺描述：</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="row"  style="margin-top:10px;" >
-                        <div class="col-md-2 col-md-offset-1">
-                            <span class="input-group-addon" >店铺描述：</span>
+                        <div class="row" >
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea   rows="8" style="width: 100%;resize:none;border:inset 3px #000000" name="shop.description">${shop.description}</textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row" >
-                        <div class="col-md-10 col-md-offset-1">
-                            <textarea   rows="8" style="width: 100%;resize:none;border:inset 3px #000000" ></textarea>
-                        </div>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-            <div class="modal-footer ">
-                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                <button type="button" class="btn btn-primary" >提交</button>
-            </div>
+                <div class="modal-footer ">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-primary" >提交</button>
+                </div>
+            </form>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -183,25 +192,37 @@
             <table >
                 <tr>
                     <th>店铺名</th>
-                    <th class="shop_info_detial">shop_name</th>
+                    <th class="shop_info_detial"><s:property value="shop.shopName"/></th>
                 </tr>
                 <tr>
                     <th>店铺地址</th>
-                    <th class="shop_info_detial">shop_address</th>
+                    <th class="shop_info_detial">
+                        <s:property value="shop.province"/>-
+                        <s:property value="shop.city"/>-
+                        <s:property value="shop.district"/>-
+                        <s:property value="shop.detail"/>
+                    </th>
                 </tr>
                 <tr>
                     <th>店主</th>
-                    <th class="shop_info_detial">owner</th>
+                    <th class="shop_info_detial"><s:property value="shop.ownerName"/></th>
                 </tr>
                 <tr>
                     <th>店铺描述</th>
-                    <th class="shop_info_detial">description</th>
+                    <th class="shop_info_detial"><s:property value="shop.description"/></th>
                 </tr>
                 <tr>
                     <th>联系方式</th>
-                    <th class="shop_info_detial">contact_way</th>
+                    <th class="shop_info_detial"><s:property value="shop.tel"/></th>
                 </tr>
-
+                <tr>
+                    <th>店铺等级</th>
+                    <th class="shop_info_detial"><s:property value="shop.level"/></th>
+                </tr>
+                <tr>
+                    <th>店铺关注人数</th>
+                    <th class="shop_info_detial"><s:property value="shop.collectedCount"/></th>
+                </tr>
             </table>
 
         </div>

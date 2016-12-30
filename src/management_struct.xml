@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="management" extends="struts-default">
+        <action name="managementAllShops" class="com.leqi.action.management.ManageCheckShopAction" method="getAllShops">
+            <result>/manage/managementAllShops.jsp</result>
+        </action>
+        <action name="managementShopInfo" class="com.leqi.action.management.ManageCheckShopAction" method="checkShopInfo">
+            <result>/manage/managementCheckShop.jsp</result>
+        </action>
+        <action name="managementAddShop" class="com.leqi.action.management.ManageAddShopAction" method="addShop">
+            <result type="redirectAction">managementAllShops</result>
+        </action>
+        <action name="addShopPage" class="com.leqi.action.management.ManageAddShopAction" method="enterAddShopPage">
+            <result>/manage/managementAddShop.jsp</result>
+        </action>
+
+
+        <action name="managementAddClubPage" class="com.leqi.action.management.ManageAddClubAction" method="enterAddClubPage">
+            <result>/manage/managementAddClub.jsp</result>
+        </action>
+        <action name="managementAddClub" class="com.leqi.action.management.ManageAddClubAction" method="addClub">
+            <result type="redirectAction">managementAllClubs</result>
+        </action>
+        <action name="managementClubInfo" class="com.leqi.action.management.ManageCheckClubAction" method="getClubInfo">
+            <result>/manage/managementCheckClubInfo.jsp</result>
+        </action>
+        <action name="managementAllClubs" class="com.leqi.action.management.ManageCheckClubAction" method="checkAllClubs">
+            <result>/manage/managementAllClubs.jsp</result>
+        </action>
+
+
+
+    </package>
+</struts>

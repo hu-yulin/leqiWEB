@@ -67,88 +67,100 @@
 
         <div class="col-md-8" style="margin-top: 20px">
             <div class="container-fluid" >
+                <form action="addGood.action" method="post" enctype="MULTIPART/FORM-DATA">
 
-                <div class="row" style="margin-top:10px;">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="input-group">
-                            <span class="input-group-addon" >商品名：</span>
-                            <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:20px;">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="input-group">
-                            <span class="input-group-addon" >商品品牌：</span>
-                            <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:20px;">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="input-group">
-                            <span class="input-group-addon"  >是否可租：</span>
-                            <input name="isRent" type="radio" checked="checked" style="margin-left: 20px">可租
-                            <input name="isRent" type="radio" >不可租
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:20px;">
-                    <div class="col-md-4 col-md-offset-1">
-                        <div class="input-group">
-                            <span class="input-group-addon" >售价：</span>
-                            <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:20px;">
-                    <div class="col-md-4 col-md-offset-1">
-                        <div class="input-group">
-                            <span class="input-group-addon" >原价：</span>
-                            <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:20px;">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="input-group">
-                            <span class="input-group-addon" >商品参数：</span>
-                            <input type="text" class="form-control"  aria-describedby="sizing-addon2"/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top:20px;">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="panel panel-default " >
-                            <div class="panel-heading ">上传图片</div>
-                            <div class="panel-body text-center">
-                                <form autocomplete="off">
-                                    <div class="file_item">
-                                        <input type="file">
-                                    </div>
-                                </form>
+                    <div class="row" style="margin-top:10px;">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="input-group">
+                                <span class="input-group-addon" >商品名：</span>
+                                <input name="good.name" type="text" class="form-control"  aria-describedby="sizing-addon2"/>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row"  style="margin-top:20px;" >
-                    <div class="col-md-2 col-md-offset-1">
-                        <span class="input-group-addon" >商品描述：</span>
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="input-group">
+                                <span class="input-group-addon" >商品品牌：</span>
+                                <input name="good.brand" type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row" >
-                    <div class="col-md-10 col-md-offset-1">
-                        <textarea   rows="8" style="width: 100%;resize:none;border:inset 3px #000000" ></textarea>
-                    </div>
-                </div>
 
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="input-group">
+                                <span class="input-group-addon"  >是否可租：</span>
+                                <input name="good.isRented" value="1" type="radio" checked="checked" style="margin-left: 20px">可租
+                                <input name="good.isRented" value="0" type="radio" >不可租
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-md-4 col-md-offset-1">
+                            <div class="input-group">
+                                <span class="input-group-addon" >售价：</span>
+                                <input name="good.currentPrice" type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-md-4 col-md-offset-1">
+                            <div class="input-group">
+                                <span class="input-group-addon" >原价：</span>
+                                <input name="good.originalPrice" type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="input-group">
+                                <span class="input-group-addon" >商品参数：</span>
+                                <input name="goodParameter" type="text" class="form-control"  aria-describedby="sizing-addon2"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="col-md-10 col-md-offset-1">
+                           不同参数之间以空格分割即可
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="panel panel-default " >
+                                <div class="panel-heading ">上传图片</div>
+                                <div class="panel-body text-center">
+
+                                        <div class="file_item">
+                                            <input type="file">
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row"  style="margin-top:20px;" >
+                        <div class="col-md-2 col-md-offset-1">
+                            <span class="input-group-addon" >商品描述：</span>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="col-md-10 col-md-offset-1">
+                            <textarea name="good.description"  rows="8" style="width: 100%;resize:none;border:inset 3px #000000" ></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row"  style="margin-top:20px;" >
+                        <div class="col-md-2 col-md-offset-1">
+                           <button type="submit">提交</button>
+                        </div>
+                    </div>
+                </form>
             </div>
 
         </div>

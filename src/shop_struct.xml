@@ -9,14 +9,35 @@
         <action name="hello" class="com.leqi.action.test" method="execute">
             <result>/shop-jsp/shopHomePage.jsp</result>
         </action>
-        <action name="addGood" class="com.leqi.action.test" method="addGood">
+        <action name="addGoodPage" class="com.leqi.action.test" method="addGood">
+
             <result>/shop-jsp/addGood.jsp</result>
         </action>
         <action name="allGood" class="com.leqi.action.test" method="allGood">
             <result>/shop-jsp/allGood.jsp</result>
         </action>
-        <action name="goodDetail" class="com.leqi.action.test" method="goodDetail">
+
+    </package>
+
+    <package name="shop" extends="struts-default">
+        <action name="shopInfo" class="com.leqi.action.shop.ShopAction" method="getShopInfo">
+            <result>/shop-jsp/shopHomePage.jsp</result>
+        </action>
+        <action name="addGood" class="com.leqi.action.shop.AddGoodAction" method="execute">
+            <param name="savePath">/pic/good</param>
+            <result>/shop-jsp/addGood.jsp</result>
+        </action>
+        <action name="shopGoods" class="com.leqi.action.shop.ShopAction" method="getShopGoods">
+            <result>/shop-jsp/allGood.jsp</result>
+        </action>
+        <action name="goodDetail" class="com.leqi.action.shop.GetGoodDetailAction" method="execute">
             <result>/shop-jsp/goodDetail.jsp</result>
+        </action>
+        <action name="removeGood" class="com.leqi.action.shop.RemoveGoodAction" method="execute">
+            <result>/shop-jsp/allGood.jsp</result>
+        </action>
+        <action name="modifyShopInfo" class="com.leqi.action.shop.ModifyShopInfoAction" method="execute">
+            <result>/shop-jsp/shopHomePage.jsp</result>
         </action>
     </package>
 </struts>

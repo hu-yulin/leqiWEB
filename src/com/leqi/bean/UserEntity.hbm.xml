@@ -7,6 +7,7 @@
     <class name="com.leqi.bean.UserEntity" table="user" schema="leqi">
         <id name="userId">
             <column name="user_id" sql-type="int(11)"/>
+            <generator class="identity"></generator>
         </id>
         <property name="username">
             <column name="username" sql-type="text"/>
@@ -15,13 +16,13 @@
             <column name="password" sql-type="text"/>
         </property>
         <property name="token">
-            <column name="token" sql-type="text"/>
+            <column name="token" sql-type="text" not-null="false"/>
         </property>
         <property name="startTime">
-            <column name="start_time" sql-type="timestamp" not-null="true"/>
+            <column name="start_time" sql-type="timestamp" not-null="false"/>
         </property>
         <property name="userType">
-            <column name="user_type" sql-type="int(11)" not-null="true"/>
+            <column name="user_type" sql-type="int(11)" not-null="false"/>
         </property>
         <set name="userPicEntitySet" lazy="false">
             <key column="user_id"/>
@@ -34,7 +35,7 @@
             <column name="pic_id" sql-type="int(11)"/>
         </id>
         <property name="userId">
-            <column name="user_id" sql-type="int(11)"/>
+            <column name="user_id" sql-type="int(11)" not-null="false"/>
         </property>
         <property name="path">
             <column name="path" sql-type="text"/>

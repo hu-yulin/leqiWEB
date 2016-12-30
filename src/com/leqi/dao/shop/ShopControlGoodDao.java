@@ -18,7 +18,7 @@ public interface ShopControlGoodDao {
 
     public GoodEntity getGoodDetail(int goodID);
 
-    public void removeGood(int goodID);
+    public void removeGood(int goodID,String path);
 
     public void addGood(GoodEntity good);
 

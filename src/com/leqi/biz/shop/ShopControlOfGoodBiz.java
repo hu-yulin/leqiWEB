@@ -8,7 +8,7 @@ import java.util.List;
  * @author huyulin
  * Created by lenovo on 2016/12/27.
  */
-public interface ShopControlOfGood {
+public interface ShopControlOfGoodBiz {
     /**
      *
      * @param shopID
@@ -19,7 +19,7 @@ public interface ShopControlOfGood {
 
     public GoodEntity getGoodDetail(int goodID);
 
-    public void removeGood(int goodID);
+    public void removeGood(int goodID,String path);
 
     public void addGood(GoodEntity good);
 

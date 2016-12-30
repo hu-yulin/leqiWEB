@@ -7,9 +7,10 @@
     <class name="com.leqi.bean.ClubActivityEntity" table="club_activity" schema="leqi">
         <id name="activityId">
             <column name="activity_id" sql-type="int(11)"/>
+            <generator class="identity"></generator>
         </id>
         <property name="clubId">
-            <column name="club_id" sql-type="int(11)"/>
+            <column name="club_id" sql-type="int(11)" not-null="false"/>
         </property>
         <property name="title">
             <column name="title" sql-type="text"/>
@@ -49,7 +50,7 @@
             <column name="pic_id" sql-type="int(11)"/>
         </id>
         <property name="activityId">
-            <column name="activity_id" sql-type="int(11)"/>
+            <column name="activity_id" sql-type="int(11)" not-null="false"/>
         </property>
         <property name="path">
             <column name="path" sql-type="text"/>

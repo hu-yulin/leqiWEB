@@ -7,5 +7,6 @@
 <struts>
    <constant name="struts.i18n.encoding" value="UTF-8"/>
    <include file="shop_struct.xml"></include>
-   <include file="management.xml"></include>
+   <include file="management_struct.xml"></include>
+   <include file="club_struct.xml"></include>
 </struts>

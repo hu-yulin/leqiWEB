@@ -10,9 +10,9 @@ public class ShopEntity {
     private String shopName;
     private String ownerName;
     private String description;
-    private String level;
+    private int level;
     private String tel;
-    private String collectedCount;
+    private int collectedCount;
     private String province;
     private String city;
     private String district;
@@ -52,11 +52,19 @@ public class ShopEntity {
         this.description = description;
     }
 
-    public String getLevel() {
+    public int getCollectedCount() {
+        return collectedCount;
+    }
+
+    public void setCollectedCount(int collectedCount) {
+        this.collectedCount = collectedCount;
+    }
+
+    public int getLevel() {
         return level;
     }
 
-    public void setLevel(String level) {
+    public void setLevel(int level) {
         this.level = level;
     }
 
@@ -68,13 +76,6 @@ public class ShopEntity {
         this.tel = tel;
     }
 
-    public String getCollectedCount() {
-        return collectedCount;
-    }
-
-    public void setCollectedCount(String collectedCount) {
-        this.collectedCount = collectedCount;
-    }
 
     public String getProvince() {
         return province;
@@ -127,10 +128,9 @@ public class ShopEntity {
         if (shopName != null ? !shopName.equals(that.shopName) : that.shopName != null) return false;
         if (ownerName != null ? !ownerName.equals(that.ownerName) : that.ownerName != null) return false;
         if (description != null ? !description.equals(that.description) : that.description != null) return false;
-        if (level != null ? !level.equals(that.level) : that.level != null) return false;
+
         if (tel != null ? !tel.equals(that.tel) : that.tel != null) return false;
-        if (collectedCount != null ? !collectedCount.equals(that.collectedCount) : that.collectedCount != null)
-            return false;
+
         if (province != null ? !province.equals(that.province) : that.province != null) return false;
         if (city != null ? !city.equals(that.city) : that.city != null) return false;
         if (district != null ? !district.equals(that.district) : that.district != null) return false;
@@ -144,9 +144,9 @@ public class ShopEntity {
         int result = shopName != null ? shopName.hashCode() : 0;
         result = 31 * result + (ownerName != null ? ownerName.hashCode() : 0);
         result = 31 * result + (description != null ? description.hashCode() : 0);
-        result = 31 * result + (level != null ? level.hashCode() : 0);
+
         result = 31 * result + (tel != null ? tel.hashCode() : 0);
-        result = 31 * result + (collectedCount != null ? collectedCount.hashCode() : 0);
+
         result = 31 * result + (province != null ? province.hashCode() : 0);
         result = 31 * result + (city != null ? city.hashCode() : 0);
         result = 31 * result + (district != null ? district.hashCode() : 0);

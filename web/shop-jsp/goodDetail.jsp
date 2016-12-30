@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -33,7 +34,7 @@
 </head>
 <body style="background-color: #f6f6f6;">
 <div  style="height: 40px;line-height:40px;width: 100%;background-color: #e3e4e5;text-align: right">
-    乐骑，商家专用   欢迎：。。。 <button type="button" class="modify_button" style="margin-right: 20px">退出</button>
+    乐骑，商家专用   欢迎：。。。 <a href="" class="modify_button" style="margin-right: 20px">退出</a>
 </div>
 
 <div class="container-fluid" style="min-height: 480px;margin-top: 100px">
@@ -51,70 +52,64 @@
 
         <!--下面进行商品详情展示-->
         <div class="col-md-9  shop_info_bar" style="background-image: url(../pic/pageNeed/bar.png);margin-top:0px">
-            商品详情 &nbsp;&nbsp;&nbsp;<button type="button" class="modify_button" data-toggle="modal" data-target="#change_shop_info">下架</button>
+            商品详情 &nbsp;&nbsp;&nbsp;<a href="removeGood.action?goodID=${good.goodId}" class="modify_button"> 下架</a>
         </div>
         <div class="col-md-9" >
 
             <div class="container-fluid">
                 <!--商品图片-->
                 <div class="row">
-                    <div class="col-md-3" style="height: 220px;margin-top:10px;">
-                        <div style="height: 100%;width: 100%;background-color: white">
-                            <img src="../pic/good/good1.jpg" style="height: 100%;width: 100%;">
+                    <c:forEach items="${good.goodPicEntitySet}" var="pic">
+                        <div class="col-md-3" style="height: 220px;margin-top:10px;">
+                            <div style="height: 100%;width: 100%;background-color: white">
+                                <img src="../${pic.path}" style="height: 100%;width: 100%;">
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-3" style="height: 220px;margin-top:10px;">
-                        <div style="height: 100%;width: 100%;background-color: white">
-                            <img src="../pic/good/good1.jpg" style="height: 100%;width: 100%;">
-                        </div>
-                    </div>
-
-                    <div class="col-md-3" style="height: 220px;margin-top:10px;">
-                        <div style="height: 100%;width: 100%;background-color: white">
-                            <img src="../pic/good/good1.jpg" style="height: 100%;width: 100%;">
-                        </div>
-                    </div>
-
-                    <div class="col-md-3" style="height: 220px;margin-top:10px;">
-                        <div style="height: 100%;width: 100%;background-color: white">
-                            <img src="../pic/good/good1.jpg" style="height: 100%;width: 100%;">
-                        </div>
-                    </div>
-
-
+                    </c:forEach>
                 </div>
+
                 <!--商品信息-->
                 <div class="row" style="margin-top: 20px">
                     <div class=" col-md-12 shop_info" >
                         <table >
                             <tr>
                                 <th>商品名</th>
-                                <th class="shop_info_detial">good_name</th>
+                                <th class="shop_info_detial">${good.name}</th>
                             </tr>
                             <tr>
                                 <th>品牌</th>
-                                <th class="shop_info_detial">good_brand</th>
+                                <th class="shop_info_detial">${good.brand}</th>
                             </tr>
                             <tr>
                                 <th>是否可租</th>
-                                <th class="shop_info_detial">is_rent</th>
+                                <th class="shop_info_detial">
+                                    <c:if test="${good.isRented==1}">
+                                        是
+                                    </c:if>
+                                    <c:if test="${good.isRented==0}">
+                                        否
+                                    </c:if>
+                                </th>
                             </tr>
                             <tr>
                                 <th>售价</th>
-                                <th class="shop_info_detial">sale_prise</th>
+                                <th class="shop_info_detial">${good.currentPrice}</th>
                             </tr>
                             <tr>
                                 <th>原价</th>
-                                <th class="shop_info_detial">original_prise</th>
+                                <th class="shop_info_detial">${good.originalPrice}</th>
                             </tr>
                             <tr>
                                 <th>商品参数</th>
-                                <th class="shop_info_detial"></th>
+                                <th class="shop_info_detial">
+                                    <c:forEach items="${good.goodParameterEntitySet}" var="para">
+                                        ${para.parameterValue}&nbsp;&nbsp;
+                                    </c:forEach>
+                                </th>
                             </tr>
                             <tr>
                                 <th>商品描述</th>
-                                <th class="shop_info_detial">description</th>
+                                <th class="shop_info_detial">${good.description}</th>
                             </tr>
                         </table>
 

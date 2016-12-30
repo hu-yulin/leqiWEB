@@ -18,13 +18,13 @@
             <column name="description" sql-type="text"/>
         </property>
         <property name="level">
-            <column name="level" sql-type="text"/>
+            <column name="level" sql-type="int(11)"/>
         </property>
         <property name="tel">
             <column name="tel" sql-type="text"/>
         </property>
         <property name="collectedCount">
-            <column name="collected_count" sql-type="text"/>
+            <column name="collected_count" sql-type="int(11)"/>
         </property>
         <property name="province">
             <column name="province" sql-type="text"/>

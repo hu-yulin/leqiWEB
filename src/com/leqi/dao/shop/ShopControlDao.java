@@ -11,7 +11,4 @@ import java.util.List;
 public interface ShopControlDao {
     public ShopEntity getShopInfo(int shopID);
     public void changeShopInfo(int shopID,ShopEntity shop);
-    public void getShopsCount();
-    public void addShop(ShopEntity shopEntity);
-    public List<ShopEntity> getShops(int currentPage);
 }

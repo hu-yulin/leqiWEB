@@ -1,5 +1,8 @@
 package com.leqi.bean;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by mbshqqb on 16-12-26.
  */
@@ -14,6 +17,15 @@ public class ClubEntity {
     private String district;
     private String detail;
     private int clubId;
+    private Set pics=new HashSet<>();
+
+    public Set getPics() {
+        return pics;
+    }
+
+    public void setPics(Set pics) {
+        this.pics = pics;
+    }
 
     public String getTitle() {
         return title;

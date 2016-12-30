@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>后台管理</title>
@@ -40,27 +41,31 @@
                     <table class="showAnn">
                         <tr >
                             <td width="20%">商家名</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <td width="70%">${shopInfo.shopName}</td>
                         </tr>
                         <tr >
                             <td width="20%">商家地址</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <td width="70%">${shopInfo.province}-${shopInfo.city}-${shopInfo.district}-${shopInfo.detail}</td>
                         </tr>
                         <tr >
                             <td width="20%">店主</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <td width="70%">${shopInfo.ownerName}</td>
                         </tr>
                         <tr >
                             <td width="20%">联系方式</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <td width="70%">${shopInfo.tel}</td>
+                        </tr>
+                        <tr >
+                            <td width="20%">商家等级</td>
+                            <td width="70%">${shopInfo.level}</td>
                         </tr>
                         <tr >
                             <td width="20%">商家描述</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <td width="70%">${shopInfo.description}</td>
                         </tr>
                         <tr >
                             <td width="20%">商品数量</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <td width="70%">${goodsCount}</td>
                         </tr>
                         <tr >
                             <td width="20%"><button type="button" class="btn btn-info">发送信息</button></td>

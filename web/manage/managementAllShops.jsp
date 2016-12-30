@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>后台管理</title>
@@ -23,7 +24,7 @@
         <div class="content">
             <div id="page_content">
 
-                <div class="cp_title">商家列表</div>
+                <div class="cp_title">商家列表 &nbsp;&nbsp;共计：${shopsCount}</div>
 
                 <div class="table_tit" style="padding-bottom: 0px;margin-top: 40px">
                     <table>
@@ -38,10 +39,14 @@
                 <div class="table_con" style="margin-top:90px">
                     <table class="showAnn">
                         <tr >
-                            <td width="20%">啊啊啊啊啊啊啊啊</td>
-                            <td width="70%">啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵不</td>
+                            <c:forEach items="${shops}" var="shop">
+                                <td width="20%">${shop.shopName}</td>
+                                <td width="70%">${shop.description}</td>
 
-                            <td width="10%"><button type="button" class="btn btn-info">查看详情</button></td>
+                                <td width="10%">
+                                    <a href="managementShopInfo.action?shopID=${shop.shopId}" class="btn btn-info" role="button">查看详情</a>
+                                </td>
+                            </c:forEach>
                         </tr>
                     </table>
                 </div>
