@@ -1,16 +1,15 @@
 package test.bean;
 
-import com.leqi.bean.GoodEntity;
-import com.leqi.bean.GoodPicEntity;
-import com.leqi.bean.ShopEntity;
-import com.leqi.bean.UserEntity;
-import com.leqi.biz.shop.ShopControlBizImpl;
-import com.leqi.dao.management.ManageDaoImpl;
+import com.leqi.bean.RiderEntity;
+import com.leqi.biz.clubBiz.ClubBiz;
+import com.leqi.biz.clubBiz.ClubControlBizImpl;
+import com.leqi.dao.club.GetClubMembersDaoIml;
 import com.leqi.dao.management.ManageShopDaoImpl;
-import com.leqi.dao.shop.ShopControlDaoImpl;
 import com.leqi.dao.shop.ShopControlGoodDaoImpl;
 
+import java.sql.SQLException;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by lenovo on 2016/12/27.
@@ -46,7 +45,14 @@ public class test {
 //        user.setUsername("huyulin");
 //        manageDao.addUser(user);
 
-        ManageShopDaoImpl manageShopDao=new ManageShopDaoImpl();
-        manageShopDao.getAllShops();
+        try {
+            GetClubMembersDaoIml get=new GetClubMembersDaoIml();
+            List<RiderEntity> s=get.getMembers(5);
+            System.out.println(s.size());
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

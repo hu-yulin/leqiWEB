@@ -1,8 +1,7 @@
 package com.leqi.action.club;
 
 import com.leqi.bean.ClubEntity;
-import com.leqi.biz.club.ClubControlBiz;
-import com.leqi.biz.club.ClubControlBizImpl;
+import com.leqi.biz.clubBiz.ClubControlBizImpl;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
@@ -13,7 +12,7 @@ public class ModifyClubInfoAction extends ActionSupport {
     private ClubEntity club;
 
     public String modifyClubInfo(){
-        ClubControlBiz clubControlBiz=new ClubControlBizImpl();
+        ClubControlBizImpl clubControlBiz=new ClubControlBizImpl();
         clubControlBiz.changeClubInfo(clubID,club);
         return SUCCESS;
     }

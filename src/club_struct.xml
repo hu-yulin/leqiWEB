@@ -11,6 +11,18 @@
         </action>
         <action name="modifyClubInfo" class="com.leqi.action.club.ModifyClubInfoAction" method="modifyClubInfo">
             <result type="redirectAction">clubHomePage</result>
+            <param name="clubID">5</param>
+        </action>
+        <action name="clubActivity" class="com.leqi.action.club.GetClubActivitiesAction" method="getActivities">
+            <result>/club_jsp/clubActivity.jsp</result>
+        </action>
+        <action name="clubAddActivity" class="com.leqi.action.club.AddActivityAction" method="addActivity">
+            <param name="savePath">/pic/activity</param>
+            <result type="redirectAction">clubActivity</result>
+            <result name="input">/club_jsp/clubActivity.jsp</result>
+        </action>
+        <action name="clubMembers" class="com.leqi.action.club.GetClubMembers" method="getClubMembers">
+            <result>/club_jsp/clubMumbers.jsp</result>
         </action>
     </package>
 </struts>

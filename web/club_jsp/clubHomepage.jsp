@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 
@@ -13,12 +13,20 @@
     <link rel="shortcut icon" href="images/icon/c-check-1-l-280x280.png" type="image/x-icon"/>
 
     <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="../css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
     <link href="../css/club/skycons.css" type="text/css" rel="stylesheet"/>
     <link href="../font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
     <link href="../css/club/bootkit.css" type="text/css" rel="stylesheet"/>
     <link href="../css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
     <link href="../css/club/style.css" type="text/css" rel="stylesheet"/>
     <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
+
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
+    <script src="../js/club/core.min.js"></script>
+
+
     <style type="text/css">
         .modify_button{
             font-size: 12px;
@@ -27,6 +35,26 @@
             background-color: inherit;
         }
     </style>
+
+    <script>
+        $(".user_icon input[type='file']").bind("change",function () {
+            var file=this.files[0];
+            var icon=$(this).parent();
+            var imageType = /image.*/;
+            if(file.type.match(imageType)){
+                var reader = new FileReader();
+                reader.onload = (function(aDiv){
+                    return function(e) {
+                        aDiv.css("background", "url(" + e.target.result + ") no-repeat center");
+                        aDiv.css("background-size", "cover");
+                    }
+                })(icon);
+                reader.readAsDataURL(file);
+            }
+
+        })
+    </script>
+
 </head>
 
 <body>
@@ -137,6 +165,43 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+    <div class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" id="addClubPic">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">添加俱乐部图片</h4>
+                </div>
+
+                <form action="${club.clubId}" method="post">
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row" style="margin-top:20px;">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="panel panel-default " >
+                                        <div class="panel-heading ">选择图片</div>
+                                        <div class="panel-body text-center">
+
+                                            <div class="file_item">
+                                                <input type="file">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-primary" >上传</button>
+                    </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <div class="row">
         <!--Sidebar-->
         <%@ include file="left_bar.jsp"%>
@@ -147,8 +212,7 @@
             <div class="page-header">
                 <div class="pull-left">
                     <ol class="breadcrumb visible-sm visible-md visible-lg">
-                        <li><a href="clubHomepage.jsp"><i class="icon fa fa-home"></i>主页</a></li>
-                        <li class="active"><i class="fa fa-laptop"></i>俱乐部</li>
+                        <li><i class="icon fa fa-home"></i>主页</li>
                     </ol>
                 </div>
                 <div class="pull-right">
@@ -208,11 +272,16 @@
                                         <td colspan="2">${club.description}</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2">俱乐部风采</td>
+                                        <td colspan="2">俱乐部风采   &nbsp;&nbsp;&nbsp;
+                                            <button type="button" class="modify_button" data-toggle="modal" data-target="#addClubPic">添加俱乐部照片</button>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2" style="text-align: center">
-                                            <img src="images/avatar.jpg" />
+                                            <c:forEach items="${club.pics}" var="pic">
+                                                <img src="../${pic.path}" />
+                                            </c:forEach>
+
                                         </td>
                                     </tr>
                                     </tbody>
@@ -228,10 +297,7 @@
 </div>
 
 
-<script src="../js/jquery-2.1.1.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
 
-<script src="../js/club/core.min.js"></script>
 </body>
 
 </html>

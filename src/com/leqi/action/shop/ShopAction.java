@@ -13,7 +13,7 @@ import java.util.List;
  * Created by lenovo on 2016/12/27.
  */
 public class ShopAction extends ActionSupport{
-    private int shopID;//传值
+    private int shopID;//传值  会话获取
     private int currentPage;//传值
 
     private ShopEntity shop;//shopHomepage页面使用
@@ -31,6 +31,7 @@ public class ShopAction extends ActionSupport{
 
     public String getShopGoods(){
         //需要先判断shopID是否有值，可以考虑拦截器等实现
+        shopID=2;
         if(currentPage<1){
             currentPage=1;
         }

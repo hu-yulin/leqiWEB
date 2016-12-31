@@ -64,7 +64,10 @@
                         </tr>
                         <tr >
                             <td width="20%">活动数量</td>
-                            <td width="70%">${activityCount}</td>
+                            <td width="70%">
+                                ${activityCount}  &nbsp;&nbsp;&nbsp;
+                                    <button type="button" class="btn btn-info">查看详情</button>
+                            </td>
                         </tr>
                         <tr >
                             <td width="20%"><button type="button" class="btn btn-info">发送信息</button></td>

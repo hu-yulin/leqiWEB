@@ -1,6 +1,7 @@
 package com.leqi.biz.management;
 
 import com.leqi.bean.ClubEntity;
+import com.leqi.bean.RiderEntity;
 import com.leqi.bean.UserEntity;
 import com.leqi.dao.management.ManageClubDao;
 import com.leqi.dao.management.ManageClubDaoImpl;
@@ -47,4 +48,6 @@ public class ManageClubBizImpl implements ManageClubBiz{
     public int  getActivitiesCount(int clubID) {
         return manageClubDao.getActivityCount(clubID);
     }
+
+
 }

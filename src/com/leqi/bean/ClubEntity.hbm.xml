@@ -40,5 +40,6 @@
             <key column="user_id"/>
             <one-to-many class="com.leqi.bean.UserPicEntity"/>
         </set>
+
     </class>
 </hibernate-mapping>

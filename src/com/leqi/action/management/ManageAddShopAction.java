@@ -20,9 +20,6 @@ public class ManageAddShopAction extends ActionSupport{
         manageShopBiz.addShop(shop,user);
         return SUCCESS;
     }
-    public String enterAddShopPage(){
-        return SUCCESS;
-    }
 
     public UserEntity getUser() {
         return user;

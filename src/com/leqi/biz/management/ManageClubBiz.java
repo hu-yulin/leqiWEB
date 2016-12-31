@@ -1,6 +1,7 @@
 package com.leqi.biz.management;
 
 import com.leqi.bean.ClubEntity;
+import com.leqi.bean.RiderEntity;
 import com.leqi.bean.UserEntity;
 
 import java.util.List;
@@ -15,4 +16,5 @@ public interface ManageClubBiz {
     public void addClub(ClubEntity clubEntity, UserEntity user);
     public void removeClub(int clubID);
     public int getActivitiesCount(int clubID);
+
 }

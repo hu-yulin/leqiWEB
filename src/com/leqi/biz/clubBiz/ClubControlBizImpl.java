@@ -1,4 +1,4 @@
-package com.leqi.biz.club;
+package com.leqi.biz.clubBiz;
 
 import com.leqi.bean.ClubActivityEntity;
 import com.leqi.bean.ClubEntity;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by lenovo on 2016/12/30.
  */
-public class ClubControlBizImpl implements ClubControlBiz {
+public class ClubControlBizImpl implements ClubBiz {
     private ManageClubDao manageClubDao=new ManageClubDaoImpl();
     private ClubControlDao clubControlDao=new ClubControlDaoImpl();
     @Override
@@ -26,8 +26,8 @@ public class ClubControlBizImpl implements ClubControlBiz {
     }
 
     @Override
-    public List<ClubActivityEntity> getClubActivities(int clubID, int CurrentPage) {
-        return clubControlDao.getClubActivities(clubID,CurrentPage);
+    public List<ClubActivityEntity> getClubActivities(int clubID) {
+        return clubControlDao.getClubActivities(clubID);
     }
 
     @Override

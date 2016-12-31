@@ -17,7 +17,8 @@ public class ClubEntity {
     private String district;
     private String detail;
     private int clubId;
-    private Set pics=new HashSet<>();
+    private Set<UserPicEntity> pics=new HashSet<>();
+
 
     public Set getPics() {
         return pics;

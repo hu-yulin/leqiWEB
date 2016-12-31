@@ -15,14 +15,8 @@
         <action name="managementAddShop" class="com.leqi.action.management.ManageAddShopAction" method="addShop">
             <result type="redirectAction">managementAllShops</result>
         </action>
-        <action name="addShopPage" class="com.leqi.action.management.ManageAddShopAction" method="enterAddShopPage">
-            <result>/manage/managementAddShop.jsp</result>
-        </action>
 
 
-        <action name="managementAddClubPage" class="com.leqi.action.management.ManageAddClubAction" method="enterAddClubPage">
-            <result>/manage/managementAddClub.jsp</result>
-        </action>
         <action name="managementAddClub" class="com.leqi.action.management.ManageAddClubAction" method="addClub">
             <result type="redirectAction">managementAllClubs</result>
         </action>
@@ -33,6 +27,9 @@
             <result>/manage/managementAllClubs.jsp</result>
         </action>
 
+        <action name="allRiders" class="com.leqi.action.management.ManageAllRidersAction" method="manageGetAllRiders">
+            <result>/manage/managementAllRiders.jsp</result>
+        </action>
 
 
     </package>

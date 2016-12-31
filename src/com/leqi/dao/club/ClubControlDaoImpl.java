@@ -2,6 +2,7 @@ package com.leqi.dao.club;
 
 import com.leqi.bean.ClubActivityEntity;
 import com.leqi.bean.ClubEntity;
+import com.leqi.bean.RiderEntity;
 import com.leqi.dao.HibernateSessionFactory;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -33,17 +34,16 @@ public class ClubControlDaoImpl implements ClubControlDao {
     }
 
     @Override
-    public List<ClubActivityEntity> getClubActivities(int clubID, int currentPage) {
+    public List<ClubActivityEntity> getClubActivities(int clubID) {
         //每页放置4个活动
-        int pageSize=4;
-        int startIndex=(currentPage-1)*pageSize;
+
         Session session=HibernateSessionFactory.getSession();
-        String hql="from ClubActivityEntity  b where b.clubId=:clubid";
+        String hql="from ClubActivityEntity  b where b.clubId=:clubid order by b.activityId desc ";
         Query query=session.createQuery(hql);
         query.setParameter("clubid",clubID);
-        query.setFirstResult(startIndex);
-        query.setMaxResults(pageSize);
+
         List list=query.list();
+        session.close();
         return list;
     }
 
@@ -61,4 +61,5 @@ public class ClubControlDaoImpl implements ClubControlDao {
     public void removeActivity(int activityID) {
 
     }
+
 }

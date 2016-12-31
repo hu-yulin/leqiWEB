@@ -11,6 +11,10 @@
           <element id="library" level="project" name="Struts 2" />
           <element id="library" level="project" name="Hibernate 5.2.3-5.2.3" />
           <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql/mysql-connector-java-5.1.26-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fileUpLoad/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fileUpLoad/commons-io-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
         </element>
       </element>
     </root>

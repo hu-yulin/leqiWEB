@@ -33,6 +33,7 @@
     <class name="com.leqi.bean.UserPicEntity" table="user_pic" schema="leqi">
         <id name="picId">
             <column name="pic_id" sql-type="int(11)"/>
+            <generator class="identity"></generator>
         </id>
         <property name="userId">
             <column name="user_id" sql-type="int(11)" not-null="false"/>

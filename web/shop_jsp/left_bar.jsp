@@ -21,18 +21,19 @@
 
                     <!--Function-->
                     <li class="active">
-                        <a href="clubHomePage.action">
-                            <i class="fa fa-laptop" aria-hidden="true"></i><span>俱乐部</span>
+                        <a href="shopInfo.action">
+                            <i class="icon fa fa-home"></i><span>商家</span>
                         </a>
                     </li>
                     <li>
-                        <a href="clubActivity.action">
-                            <i class="fa fa-bicycle" aria-hidden="true"></i><span>活动</span>
+                        <a href="shopGoods.action">
+                            <i class="fa fa-bicycle" aria-hidden="true"></i><span>全部商品</span>
                         </a>
                     </li>
                     <li>
-                        <a href="clubMembers.action">
-                            <i class="fa fa-group" aria-hidden="true"></i><span>成员</span>
+                        <a href="/shop_jsp/addGood.jsp">
+                            <i class="fa fa-plus-square" aria-hidden="true"></i>
+                            <span>添加商品</span>
                         </a>
                     </li>
                     <!--End Function-->
@@ -51,7 +52,7 @@
             <h5>组员：张靖 闫新跃<br></h5>
             <h5>组员：李丹 王肇鑫<br></h5>
             <h5 style="padding-left: 60px"></h5>
-            <h5 style="bottom: 0; margin-top: 20px">指导老师：刘益先</h5>
+            <h5 style="bottom: 0;margin-top: 20px">指导老师：刘益先</h5>
         </div>
     </div>
     <!--End Footer-->

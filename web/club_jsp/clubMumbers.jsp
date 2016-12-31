@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 
 <head>
@@ -40,14 +41,14 @@
             <div class="page-header">
                 <div class="pull-left">
                     <ol class="breadcrumb visible-sm visible-md visible-lg">
-                        <li><a href="clubHomepage.jsp"><i class="icon fa fa-home"></i>主页</a></li>
                         <li class="active"><i class="fa fa-group"></i>成员</li>
                     </ol>
                 </div>
                 <div class="pull-right">
                     <h2 id="tag">
-                        <a href="">
-                            <i class="fa fa-plus" style="padding-right: 10px"></i></a>成员</h2>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#">
+                            添加成员
+                        </button></h2>
                 </div>
             </div>
             <!-- End Page Header -->
@@ -75,14 +76,15 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>胡玉林</td>
-                                        <td>男</td>
-                                        <td>电话：123456789</td>
-                                        <td>辽宁省沈阳市浑南区东北大学</td>
-                                        <td> <a href="" class="btn btn-info" role="button">删除</a></td>
-                                    </tr>
-
+                                    <c:forEach items="${riders}" var="rider">
+                                        <tr>
+                                            <td>${rider.nickname}</td>
+                                            <td>${rider.gender}</td>
+                                            <td>${rider.contact}</td>
+                                            <td>${rider.province}-${rider.city}-${rider.district}-${rider.detail}</td>
+                                            <td> <a href="" class="btn btn-info" role="button">删除</a></td>
+                                        </tr>
+                                    </c:forEach>
                                     </tbody>
                                 </table>
                             </div>

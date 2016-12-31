@@ -20,9 +20,6 @@ public class ManageAddClubAction extends ActionSupport{
         return SUCCESS;
     }
 
-    public String enterAddClubPage(){
-        return SUCCESS;
-    }
 
     public UserEntity getUser() {
         return user;
