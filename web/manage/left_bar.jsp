@@ -11,7 +11,8 @@
 <!--顶部-->
 <div class="top">
     <div><span style="font-size: 23px;line-height: 45px;padding-left: 20px;color: #fff">  “乐骑”  管理端
-	  			<a class="btn btn-default" href="Login.jsp" role="button">退出</a>
+	  			<a class="btn btn-default" href="/log/login.jsp" role="button">退出</a>
+
 	  		</span></div>
 </div>
 <!--顶部结束-->

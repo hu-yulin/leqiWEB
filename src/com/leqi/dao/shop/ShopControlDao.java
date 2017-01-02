@@ -1,8 +1,10 @@
 package com.leqi.dao.shop;
 
 import com.leqi.bean.ShopEntity;
+import com.leqi.bean.UserPicEntity;
 
 import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -11,4 +13,5 @@ import java.util.List;
 public interface ShopControlDao {
     public ShopEntity getShopInfo(int shopID);
     public void changeShopInfo(int shopID,ShopEntity shop);
+    public void changeHeadPic(int shopID,Set<UserPicEntity> pics);
 }

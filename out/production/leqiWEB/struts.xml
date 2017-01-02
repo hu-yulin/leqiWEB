@@ -9,4 +9,18 @@
    <include file="shop_struct.xml"></include>
    <include file="management_struct.xml"></include>
    <include file="club_struct.xml"></include>
+
+   <package name="log" extends="struts-default">
+
+
+
+      <action name="log" class="com.leqi.action.Logaction" method="login">
+         <result type="stream">
+            <param name="contentType">text/plain</param>
+            <param name="inputName">inputStream</param>
+         </result>
+      </action>
+   </package>
+
+
 </struts>

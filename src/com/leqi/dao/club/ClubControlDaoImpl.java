@@ -3,12 +3,14 @@ package com.leqi.dao.club;
 import com.leqi.bean.ClubActivityEntity;
 import com.leqi.bean.ClubEntity;
 import com.leqi.bean.RiderEntity;
+import com.leqi.bean.UserPicEntity;
 import com.leqi.dao.HibernateSessionFactory;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by lenovo on 2016/12/30.
@@ -60,6 +62,18 @@ public class ClubControlDaoImpl implements ClubControlDao {
     @Override
     public void removeActivity(int activityID) {
 
+    }
+
+    @Override
+    public void addClubPic(int clubID, Set<UserPicEntity> pics) {
+        Session session= HibernateSessionFactory.getSession();
+        Transaction tx=null;
+        ClubEntity old=session.get(ClubEntity.class,clubID);
+        old.setPics(pics);
+        tx=session.beginTransaction();
+        session.update(old);
+        tx.commit();
+        session.close();
     }
 
 }

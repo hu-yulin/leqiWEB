@@ -1,11 +1,13 @@
 package com.leqi.dao.shop;
 
 import com.leqi.bean.ShopEntity;
+import com.leqi.bean.UserPicEntity;
 import com.leqi.dao.HibernateSessionFactory;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by lenovo on 2016/12/27.
@@ -38,6 +40,18 @@ public class ShopControlDaoImpl implements ShopControlDao {
         session.update(old);
         tx.commit();
         HibernateSessionFactory.closeSession();
+    }
+
+    @Override
+    public void changeHeadPic(int shopID, Set<UserPicEntity> pics) {
+        Session session= HibernateSessionFactory.getSession();
+        Transaction tx=null;
+        ShopEntity old=session.get(ShopEntity.class,shopID);
+        old.setPics(pics);
+        tx=session.beginTransaction();
+        session.update(old);
+        tx.commit();
+        session.close();
     }
 
 

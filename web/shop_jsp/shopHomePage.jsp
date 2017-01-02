@@ -14,12 +14,14 @@
     <link rel="shortcut icon" href="images/icon/c-check-1-l-280x280.png" type="image/x-icon"/>
 
     <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="../css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
     <link href="../css/club/skycons.css" type="text/css" rel="stylesheet"/>
     <link href="../font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
     <link href="../css/club/bootkit.css" type="text/css" rel="stylesheet"/>
     <link href="../css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
     <link href="../css/club/style.css" type="text/css" rel="stylesheet"/>
     <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
+    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
     <style type="text/css">
         .modify_button{
             font-size: 12px;
@@ -28,6 +30,24 @@
             background-color: inherit;
         }
     </style>
+    <script>
+        $(".user_icon input[type='file']").bind("change",function () {
+            var file=this.files[0];
+            var icon=$(this).parent();
+            var imageType = /image.*/;
+            if(file.type.match(imageType)){
+                var reader = new FileReader();
+                reader.onload = (function(aDiv){
+                    return function(e) {
+                        aDiv.css("background", "url(" + e.target.result + ") no-repeat center");
+                        aDiv.css("background-size", "cover");
+                    }
+                })(icon);
+                reader.readAsDataURL(file);
+            }
+
+        })
+    </script>
 </head>
 
 <body>
@@ -226,17 +246,6 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2"><s:property value="shop.description"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">店铺风采</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2" style="text-align: center">
-
-                                                <img src="../" />
-
-
-                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>

@@ -6,6 +6,9 @@
 
 <struts>
     <package name="management" extends="struts-default">
+        <global-results>
+            <result name="login">/log/login.jsp</result>
+        </global-results>
         <action name="managementAllShops" class="com.leqi.action.management.ManageCheckShopAction" method="getAllShops">
             <result>/manage/managementAllShops.jsp</result>
         </action>

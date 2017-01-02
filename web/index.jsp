@@ -9,16 +9,10 @@
 <html>
   <head>
     <title>$Title$</title>
+
   </head>
   <body>
-  $END$struct hello
 
-  <form name="test" action="hello.action">
-       <textarea name="data">
-
-       </textarea>
-    <button type="submit" value="提交"></button>
-  </form>
 
 
   <a href="shopInfo.action?shopID=2">店铺首页</a>

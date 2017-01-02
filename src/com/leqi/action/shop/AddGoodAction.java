@@ -1,8 +1,11 @@
 package com.leqi.action.shop;
 
+import com.leqi.action.GetUserID;
 import com.leqi.bean.GoodEntity;
 import com.leqi.bean.GoodParameterEntity;
 import com.leqi.bean.GoodPicEntity;
+import com.leqi.biz.shop.ShopControlBiz;
+import com.leqi.biz.shop.ShopControlBizImpl;
 import com.leqi.biz.shop.ShopControlOfGoodBiz;
 import com.leqi.biz.shop.ShopControlOfGoodBizImpl;
 import com.opensymphony.xwork2.ActionSupport;
@@ -25,13 +28,17 @@ public class AddGoodAction extends ActionSupport {
     private String[] PictureContentType;
     private String[] PictureFileName;
     private String savePath;
-    private int shopID;
+    private String headPic;
 
     private Random random=new Random();
 
     public String execute() throws Exception {
         //需要从会话中取出shopID
-        good.setShopId(2);
+        int shopID=new GetUserID().getUserID();
+        if(shopID==-1){
+            return "login";
+        }
+        good.setShopId(shopID);
         File[] files=getPicture();
         for(int i=0;i<files.length;i++){
             InputStream in=new FileInputStream(files[i]);
@@ -63,15 +70,17 @@ public class AddGoodAction extends ActionSupport {
 
         ShopControlOfGoodBiz shopControlOfGoodBiz=new ShopControlOfGoodBizImpl();
         shopControlOfGoodBiz.addGood(good);
+        ShopControlBiz shopControlBiz=new ShopControlBizImpl();
+        headPic=shopControlBiz.getHeadPic(shopID);
         return SUCCESS;
     }
 
-    public int getShopID() {
-        return shopID;
+    public String getHeadPic() {
+        return headPic;
     }
 
-    public void setShopID(int shopID) {
-        this.shopID = shopID;
+    public void setHeadPic(String headPic) {
+        this.headPic = headPic;
     }
 
     public GoodEntity getGood() {

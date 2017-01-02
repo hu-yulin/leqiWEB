@@ -1,43 +1,42 @@
-package com.leqi.action.club;
+package com.leqi.action.shop;
 
 import com.leqi.action.GetUserID;
-import com.leqi.bean.ClubActivityEntity;
-import com.leqi.bean.ClubActivityPicEntity;
+import com.leqi.bean.UserPicEntity;
 import com.leqi.biz.clubBiz.ClubBiz;
 import com.leqi.biz.clubBiz.ClubControlBizImpl;
+import com.leqi.biz.shop.ShopControlBiz;
+import com.leqi.biz.shop.ShopControlBizImpl;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 
 import java.io.*;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 
 /**
- * Created by lenovo on 2016/12/30.
+ * Created by lenovo on 2017/1/2.
  */
-public class AddActivityAction extends ActionSupport {
-    private ClubActivityEntity activity;
+public class ChangeShopHeadPicAction extends ActionSupport {
     private File[] Picture;
     private String[] PictureContentType;
     private String[] PictureFileName;
     private String savePath;
 
-    private String headPic;
     private Random random=new Random();
 
-    public String addActivity() throws Exception{
-        int clubID=new GetUserID().getUserID();
-        if(clubID==-1){
+    public String changeShopHeadPic() throws IOException {
+
+        int shopID = new GetUserID().getUserID();
+        if (shopID == -1) {
             return "login";
         }
-        activity.setClubId(clubID);
-
-        File[] files=getPicture();
-        String uploadPath = ServletActionContext.getServletContext().getRealPath(savePath);//服务器保存路径
-        for(int i=0;i<files.length;i++) {
+        File[] files = getPicture();
+        Set<UserPicEntity> pics = new HashSet<>();
+        for (int i = 0; i < files.length && i < 1; i++) {
             InputStream in = new FileInputStream(files[i]);
-
+            String uploadPath = ServletActionContext.getServletContext().getRealPath(savePath);//服务器保存路径
             String fileName = PictureFileName[i];//加入随机数进行文件名处理，以免重复。
-
 
             fileName = random.nextInt(500) + fileName;
             File loadFile = new File(uploadPath, fileName);
@@ -49,30 +48,13 @@ public class AddActivityAction extends ActionSupport {
             }
             in.close();
             outputStream.close();
-            ClubActivityPicEntity picEntity = new ClubActivityPicEntity();
-            picEntity.setPath("pic/activity/" + fileName);
-            activity.getClubActivityPicEntitySet().add(picEntity);
+            UserPicEntity pic = new UserPicEntity();
+            pic.setPath("pic/shop/" + fileName);
+            pics.add(pic);
         }
-        ClubBiz clubBiz=new ClubControlBizImpl();
-        headPic=clubBiz.getClubHeadPic(clubID);
-        clubBiz.addActivity(activity);
+        ShopControlBiz shopControlBiz=new ShopControlBizImpl();
+        shopControlBiz.changeHeadPic(shopID,pics);
         return SUCCESS;
-    }
-
-    public String getHeadPic() {
-        return headPic;
-    }
-
-    public void setHeadPic(String headPic) {
-        this.headPic = headPic;
-    }
-
-    public ClubActivityEntity getActivity() {
-        return activity;
-    }
-
-    public void setActivity(ClubActivityEntity activity) {
-        this.activity = activity;
     }
 
     public File[] getPicture() {
@@ -106,5 +88,4 @@ public class AddActivityAction extends ActionSupport {
     public void setSavePath(String savePath) {
         this.savePath = savePath;
     }
-
 }

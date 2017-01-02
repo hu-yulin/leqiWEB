@@ -1,5 +1,6 @@
 package com.leqi.action.shop;
 
+import com.leqi.action.GetUserID;
 import com.leqi.bean.ShopEntity;
 import com.leqi.biz.shop.ShopControlBizImpl;
 import com.opensymphony.xwork2.ActionSupport;
@@ -11,9 +12,12 @@ public class ModifyShopInfoAction extends ActionSupport{
     private ShopEntity shop;
 
     public String execute(){
-        //首先必须判断shopID是否存在
+        int shopID=new GetUserID().getUserID();
+        if(shopID==-1){
+            return "login";
+        }
         ShopControlBizImpl shopControlDao=new ShopControlBizImpl();
-        int shopID=2;
+
         shopControlDao.changeShopInfo(shopID,shop);
         return SUCCESS;
     }

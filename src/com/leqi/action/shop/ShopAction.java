@@ -1,7 +1,9 @@
 package com.leqi.action.shop;
 
+import com.leqi.action.GetUserID;
 import com.leqi.bean.GoodEntity;
 import com.leqi.bean.ShopEntity;
+import com.leqi.biz.shop.ShopControlBiz;
 import com.leqi.biz.shop.ShopControlBizImpl;
 import com.leqi.biz.shop.ShopControlOfGoodBizImpl;
 import com.opensymphony.xwork2.ActionSupport;
@@ -13,25 +15,31 @@ import java.util.List;
  * Created by lenovo on 2016/12/27.
  */
 public class ShopAction extends ActionSupport{
-    private int shopID;//传值  会话获取
+
     private int currentPage;//传值
 
     private ShopEntity shop;//shopHomepage页面使用
     private List<GoodEntity> goods;//allGoods页面使用
     private int totalPage;//allGoods页面使用
-
+    private String headPic;
     public String getShopInfo(){
        //需要先判断shopID是否有值，可以考虑拦截器等实现
-        shopID=2;
+        int shopID=new GetUserID().getUserID();
+        if(shopID==-1){
+            return "login";
+        }
         ShopControlBizImpl shopControlBiz=new ShopControlBizImpl();
         shop=shopControlBiz.getShopInfo(shopID);
-
+        headPic=shopControlBiz.getHeadPic(shopID);
         return SUCCESS;
     }
 
     public String getShopGoods(){
-        //需要先判断shopID是否有值，可以考虑拦截器等实现
-        shopID=2;
+
+        int shopID=new GetUserID().getUserID();
+        if(shopID==-1){
+            return "login";
+        }
         if(currentPage<1){
             currentPage=1;
         }
@@ -42,11 +50,19 @@ public class ShopAction extends ActionSupport{
             currentPage=totalPage;
         }
         goods=shopControlOfGoodBiz.getShopGoods(shopID,currentPage);
-        System.out.println(goods.size());
+        ShopControlBiz shopControlBiz=new ShopControlBizImpl();
+        headPic=shopControlBiz.getHeadPic(shopID);
         return SUCCESS;
     }
 
 
+    public String getHeadPic() {
+        return headPic;
+    }
+
+    public void setHeadPic(String headPic) {
+        this.headPic = headPic;
+    }
 
     public int getCurrentPage() {
         return currentPage;
@@ -62,14 +78,6 @@ public class ShopAction extends ActionSupport{
 
     public void setTotalPage(int totalPage) {
         this.totalPage = totalPage;
-    }
-
-    public int getShopID() {
-        return shopID;
-    }
-
-    public void setShopID(int shopID) {
-        this.shopID = shopID;
     }
 
     public ShopEntity getShop() {

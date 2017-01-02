@@ -1,5 +1,6 @@
 package com.leqi.action.club;
 
+import com.leqi.action.GetUserID;
 import com.leqi.bean.ClubActivityEntity;
 import com.leqi.biz.clubBiz.ClubBiz;
 import com.leqi.biz.clubBiz.ClubControlBizImpl;
@@ -11,36 +12,37 @@ import java.util.List;
  * Created by lenovo on 2016/12/30.
  */
 public class GetClubActivitiesAction extends ActionSupport {
-    private int clubID;//需要从会话中获取
+
 //    private int currentPage;
 //    private int totalPage;
     private List<ClubActivityEntity> activites;
-
+    private String headPic;
     public String getActivities(){
         ClubBiz clubBiz=new ClubControlBizImpl();
 //        if(currentPage<1){
 //            currentPage=1;
 //        }
-        clubID=5;
+        int clubID=new GetUserID().getUserID();
+        if(clubID==-1){
+            return "login";
+        }
         int count=clubBiz.getAvtivitiesCount(clubID);
 //        totalPage=(count%4==0)?(count/4):(count/4+1);
 //        if(currentPage>totalPage){
 //            currentPage=totalPage;
 //        }
         activites=clubBiz.getClubActivities(clubID);
+        headPic=clubBiz.getClubHeadPic(clubID);
         return SUCCESS;
     }
 
 
-
-
-
-    public int getClubID() {
-        return clubID;
+    public String getHeadPic() {
+        return headPic;
     }
 
-    public void setClubID(int clubID) {
-        this.clubID = clubID;
+    public void setHeadPic(String headPic) {
+        this.headPic = headPic;
     }
 
     public List<ClubActivityEntity> getActivites() {

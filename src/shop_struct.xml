@@ -7,6 +7,9 @@
 <struts>
 
     <package name="shop" extends="struts-default">
+        <global-results>
+            <result name="login">/log/login.jsp</result>
+        </global-results>
         <action name="shopInfo" class="com.leqi.action.shop.ShopAction" method="getShopInfo">
             <result>/shop_jsp/shopHomePage.jsp</result>
         </action>
@@ -25,6 +28,10 @@
         </action>
         <action name="modifyShopInfo" class="com.leqi.action.shop.ModifyShopInfoAction" method="execute">
             <result>/shop_jsp/shopHomePage.jsp</result>
+        </action>
+        <action name="changeShopHeadPic" class="com.leqi.action.shop.ChangeShopHeadPicAction" method="changeShopHeadPic">
+            <result type="redirectAction">shopInfo</result>
+            <param name="savePath">/pic/shop</param>
         </action>
     </package>
 </struts>

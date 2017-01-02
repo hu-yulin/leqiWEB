@@ -1,4 +1,42 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<div class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" id="changeHeadPic">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">修改头像</h4>
+            </div>
+
+            <form action="addClubPic.action" method="post" enctype="MULTIPART/FORM-DATA">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row" style="margin-top:20px;">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="panel panel-default " >
+                                    <div class="panel-heading ">选择图片</div>
+                                    <div class="panel-body text-center">
+
+                                        <div class="file_item">
+                                            <input type="file">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-primary" >上传</button>
+                </div>
+            </form>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <div class="sidebar">
     <div >
         <div >
@@ -7,14 +45,14 @@
                     <!--User-->
                     <div class="panel-body text-center">
                         <div class="bk-avatar">
-                            <img src="images/avatar.jpg" class="img-circle bk-img-60" alt=""/>
+                            <img src="../${headPic}" class="img-circle bk-img-60" data-toggle="modal" data-target="#changeHeadPic"/>
                         </div>
                         <div class="bk-padding-top-10">
                             <i class="fa fa-circle text-success"></i>
                             <small>Administrator</small>
                         </div>
                         <div style="float: right;font-size: 14px">
-                            <a href="">注销</a>
+                            <a href="/log/login.jsp">注销</a>
                         </div>
                     </div>
                     <!--End User-->
@@ -49,7 +87,7 @@
         <div style="width:100%;float: right">
             <h5>组长：胡玉林<br></h5>
             <h5>组员：张靖 闫新跃<br></h5>
-            <h5>组员：李丹 王肇鑫<br></h5>
+            <h5>&nbsp;&nbsp;&nbsp;李丹 王肇鑫<br></h5>
             <h5 style="padding-left: 60px"></h5>
             <h5 style="bottom: 0; margin-top: 20px">指导老师：刘益先</h5>
         </div>

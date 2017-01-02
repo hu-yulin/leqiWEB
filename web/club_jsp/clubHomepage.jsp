@@ -165,42 +165,6 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <div class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" id="addClubPic">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">添加俱乐部图片</h4>
-                </div>
-
-                <form action="${club.clubId}" method="post">
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="row" style="margin-top:20px;">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <div class="panel panel-default " >
-                                        <div class="panel-heading ">选择图片</div>
-                                        <div class="panel-body text-center">
-
-                                            <div class="file_item">
-                                                <input type="file">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer ">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                        <button type="submit" class="btn btn-primary" >上传</button>
-                    </div>
-                </form>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
     <div class="row">
         <!--Sidebar-->
@@ -271,19 +235,7 @@
                                     <tr>
                                         <td colspan="2">${club.description}</td>
                                     </tr>
-                                    <tr>
-                                        <td colspan="2">俱乐部风采   &nbsp;&nbsp;&nbsp;
-                                            <button type="button" class="modify_button" data-toggle="modal" data-target="#addClubPic">添加俱乐部照片</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2" style="text-align: center">
-                                            <c:forEach items="${club.pics}" var="pic">
-                                                <img src="../${pic.path}" />
-                                            </c:forEach>
 
-                                        </td>
-                                    </tr>
                                     </tbody>
                                 </table>
                             </div>

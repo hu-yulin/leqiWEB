@@ -1,5 +1,6 @@
 package com.leqi.action.club;
 
+import com.leqi.action.GetUserID;
 import com.leqi.bean.ClubEntity;
 import com.leqi.biz.clubBiz.ClubControlBizImpl;
 import com.opensymphony.xwork2.ActionSupport;
@@ -8,23 +9,28 @@ import com.opensymphony.xwork2.ActionSupport;
  * Created by lenovo on 2016/12/30.
  */
 public class GetClubInfoAction extends ActionSupport {
-    private int clubID;//club不应该传过来而是应该从会话中获取
 
+    private String headPic;
     private ClubEntity club;//jsp use
     public String enterClubHomePage(){
-        clubID=5;
+        int clubID=new GetUserID().getUserID();
+        if(clubID==-1){
+            return "login";
+        }
         ClubControlBizImpl clubControlBiz=new ClubControlBizImpl();
+        headPic=clubControlBiz.getClubHeadPic(clubID);
         club=clubControlBiz.getClubInfo(clubID);
         return SUCCESS;
     }
 
-    public int getClubID() {
-        return clubID;
+    public String getHeadPic() {
+        return headPic;
     }
 
-    public void setClubID(int clubID) {
-        this.clubID = clubID;
+    public void setHeadPic(String headPic) {
+        this.headPic = headPic;
     }
+
 
     public ClubEntity getClub() {
         return club;

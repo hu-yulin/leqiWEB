@@ -12,7 +12,7 @@
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
+    <link href="../css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
     <link href="../css/shop/allGood.css" type="text/css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <%--<link href="../css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">--%>
@@ -24,9 +24,26 @@
     <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
     <script src="../js/jquery-2.1.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-
+    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
     <script src="../js/club/core.min.js"></script>
+    <script>
+        $(".user_icon input[type='file']").bind("change",function () {
+            var file=this.files[0];
+            var icon=$(this).parent();
+            var imageType = /image.*/;
+            if(file.type.match(imageType)){
+                var reader = new FileReader();
+                reader.onload = (function(aDiv){
+                    return function(e) {
+                        aDiv.css("background", "url(" + e.target.result + ") no-repeat center");
+                        aDiv.css("background-size", "cover");
+                    }
+                })(icon);
+                reader.readAsDataURL(file);
+            }
 
+        })
+    </script>
 </head>
 
 <body>
