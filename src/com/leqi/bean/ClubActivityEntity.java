@@ -12,11 +12,11 @@ public class ClubActivityEntity {
     private int clubId;
     private String title;
     private String description;
-    private Timestamp startTime;
-    private Timestamp endTime;
+    private String startTime;
+    private String endTime;
     private String startPlace;
     private String endPlace;
-    private Timestamp releaseTime;
+    private String releaseTime;
     private String participateWay;
     private String requirement;
 
@@ -62,19 +62,20 @@ public class ClubActivityEntity {
         this.description = description;
     }
 
-    public Timestamp getStartTime() {
+
+    public String getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(Timestamp startTime) {
+    public void setStartTime(String startTime) {
         this.startTime = startTime;
     }
 
-    public Timestamp getEndTime() {
+    public String getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(Timestamp endTime) {
+    public void setEndTime(String endTime) {
         this.endTime = endTime;
     }
 
@@ -94,11 +95,11 @@ public class ClubActivityEntity {
         this.endPlace = endPlace;
     }
 
-    public Timestamp getReleaseTime() {
+    public String getReleaseTime() {
         return releaseTime;
     }
 
-    public void setReleaseTime(Timestamp releaseTime) {
+    public void setReleaseTime(String releaseTime) {
         this.releaseTime = releaseTime;
     }
 

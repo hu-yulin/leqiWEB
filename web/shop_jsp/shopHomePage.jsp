@@ -13,15 +13,15 @@
 
     <link rel="shortcut icon" href="images/icon/c-check-1-l-280x280.png" type="image/x-icon"/>
 
-    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="../css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
-    <link href="../css/club/skycons.css" type="text/css" rel="stylesheet"/>
-    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/bootkit.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
-    <link href="../css/club/style.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
-    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
+    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/club/skycons.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/bootkit.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/style.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
+    <script src="${pageContext.request.contextPath}/js/shop/picjs.js" type="text/javascript" ></script>
     <style type="text/css">
         .modify_button{
             font-size: 12px;
@@ -151,7 +151,7 @@
     <div class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" id="changePass">
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
-                <form action="" method="post" >
+                <form action="changeShopPass.action" method="post" >
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title" >更改密码</h4>

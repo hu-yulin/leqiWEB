@@ -23,4 +23,6 @@ public interface ShopControlGoodDao {
     public void addGood(GoodEntity good);
 
     public int getGoodsCount(int shopID);
+
+    public List<GoodEntity> getShopAllGoods(int shopID);
 }

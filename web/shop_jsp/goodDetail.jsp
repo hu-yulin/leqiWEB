@@ -12,19 +12,38 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-
-    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <%--<link href="../css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">--%>
-    <link href="../css/club/skycons.css" type="text/css" rel="stylesheet"/>
-    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/bootkit.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
-    <link href="../css/club/style.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
-    <script src="../js/club/core.min.js"></script>
+    <link href="${pageContext.request.contextPath}/css/club/skycons.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/bootkit.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/style.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
+    <script src="${pageContext.request.contextPath}/js/jquery-2.1.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/shop/picjs.js" type="text/javascript" ></script>
+    <script src="${pageContext.request.contextPath}/js/club/core.min.js"></script>
+
+    <script>
+        $(".user_icon input[type='file']").bind("change",function () {
+            var file=this.files[0];
+            var icon=$(this).parent();
+            var imageType = /image.*/;
+            if(file.type.match(imageType)){
+                var reader = new FileReader();
+                reader.onload = (function(aDiv){
+                    return function(e) {
+                        aDiv.css("background", "url(" + e.target.result + ") no-repeat center");
+                        aDiv.css("background-size", "cover");
+                    }
+                })(icon);
+                reader.readAsDataURL(file);
+            }
+
+        })
+    </script>
 
 </head>
 
@@ -104,7 +123,7 @@
                                         <td>图片展示</td>
                                         <td>
                                             <c:forEach items="${good.goodPicEntitySet}" var="pic">
-                                                <img src="../${pic.path}" style="max-width: 200px;margin-top: 10px;margin-right: 10px"/>
+                                                <img src="${pageContext.request.contextPath}/${pic.path}" style="max-width: 200px;margin-top: 10px;margin-right: 10px"/>
                                             </c:forEach>
 
 

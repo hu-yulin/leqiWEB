@@ -31,5 +31,9 @@
             <result name="input">/club_jsp/clubActivity.jsp</result>
             <param name="savePath">/pic/club</param>
         </action>
+
+        <action name="changeClubPass" class="com.leqi.action.ChangePassAction" method="changePass">
+            <result type="redirectAction">clubHomePage</result>
+        </action>
     </package>
 </struts>

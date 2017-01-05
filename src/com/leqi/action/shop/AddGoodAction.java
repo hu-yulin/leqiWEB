@@ -75,6 +75,16 @@ public class AddGoodAction extends ActionSupport {
         return SUCCESS;
     }
 
+    public String enterAddGoodPage(){
+        int shopID=new GetUserID().getUserID();
+        if(shopID==-1){
+            return "login";
+        }
+        ShopControlBiz shopControlBiz=new ShopControlBizImpl();
+        headPic=shopControlBiz.getHeadPic(shopID);
+        return SUCCESS;
+    }
+
     public String getHeadPic() {
         return headPic;
     }

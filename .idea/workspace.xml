@@ -1,49 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/mobile_struts.xml" line="7" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d80b6b4-4c78-4941-8d18-4a623476b1f2" name="Default" comment="三大部分联合">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/GetUserID.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/shop/ChangeShopHeadPicAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/biz/others/LogBiz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/biz/others/LogBizImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/dao/others/LogDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/dao/others/LogDaoImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leqi/action/shop/EnterAction.java" afterPath="" />
+    <list default="true" id="9d80b6b4-4c78-4941-8d18-4a623476b1f2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/ChangePassAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllActivitiesAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllClubs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllShopsAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/action/mobile/GetShopGoodsAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/biz/others/ChangePassBizImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/biz/others/MobileBiz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/dao/others/ChangePassDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leqi/dao/others/MobileDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mobile_struts.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/leqiWEB/shop_struct.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leqiWEB.iml" afterPath="$PROJECT_DIR$/leqiWEB.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/leqiWEB/struts.xml" afterPath="$PROJECT_DIR$/out/production/leqiWEB/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/club_struct.xml" afterPath="$PROJECT_DIR$/src/club_struct.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/Logaction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/Logaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/club/AddActivityAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/club/AddActivityAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/club/GetClubActivitiesAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/club/GetClubActivitiesAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/club/GetClubInfoAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/club/GetClubInfoAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/club/GetClubMembers.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/club/GetClubMembers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/club/ModifyClubInfoAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/club/ModifyClubInfoAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/management/ManageAddClubAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/management/ManageAddClubAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/shop/AddGoodAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/shop/AddGoodAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/shop/ModifyShopInfoAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/shop/ModifyShopInfoAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/shop/ShopAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/shop/ShopAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubBiz.java" afterPath="$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubBiz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubControlBizImpl.java" afterPath="$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubControlBizImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBiz.java" afterPath="$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBiz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBizImpl.java" afterPath="$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBizImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDao.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDao.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/management_struct.xml" afterPath="$PROJECT_DIR$/src/management_struct.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shop_struct.xml" afterPath="$PROJECT_DIR$/src/shop_struct.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/action/shop/GetGoodDetailAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/shop/GetGoodDetailAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.java" afterPath="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlGoodDao.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlGoodDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlGoodDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlGoodDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/club_jsp/clubActivity.jsp" afterPath="$PROJECT_DIR$/web/club_jsp/clubActivity.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp" afterPath="$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp" afterPath="$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/club_jsp/left_bar.jsp" afterPath="$PROJECT_DIR$/web/club_jsp/left_bar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/shop/allGood.css" afterPath="$PROJECT_DIR$/web/css/shop/allGood.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/log/supersized-init.js" afterPath="$PROJECT_DIR$/web/js/log/supersized-init.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/log/login.jsp" afterPath="$PROJECT_DIR$/web/log/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/left_bar.jsp" afterPath="$PROJECT_DIR$/web/manage/left_bar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementAddClub.jsp" afterPath="$PROJECT_DIR$/web/manage/managementAddClub.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementAddShop.jsp" afterPath="$PROJECT_DIR$/web/manage/managementAddShop.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementAllClubs.jsp" afterPath="$PROJECT_DIR$/web/manage/managementAllClubs.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementAllRiders.jsp" afterPath="$PROJECT_DIR$/web/manage/managementAllRiders.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementAllShops.jsp" afterPath="$PROJECT_DIR$/web/manage/managementAllShops.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementCheckClubInfo.jsp" afterPath="$PROJECT_DIR$/web/manage/managementCheckClubInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manage/managementCheckShop.jsp" afterPath="$PROJECT_DIR$/web/manage/managementCheckShop.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop_jsp/addGood.jsp" afterPath="$PROJECT_DIR$/web/shop_jsp/addGood.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop_jsp/allGood.jsp" afterPath="$PROJECT_DIR$/web/shop_jsp/allGood.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop_jsp/goodDetail.jsp" afterPath="$PROJECT_DIR$/web/shop_jsp/goodDetail.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop_jsp/left_bar.jsp" afterPath="$PROJECT_DIR$/web/shop_jsp/left_bar.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shop_jsp/shopHomePage.jsp" afterPath="$PROJECT_DIR$/web/shop_jsp/shopHomePage.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/leqi/action/club/AddShopPicAction.java" afterPath="$PROJECT_DIR$/src/com/leqi/action/club/AddClubPicAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/club_struct.xml" afterPath="$PROJECT_DIR$/src/club_struts.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/management_struct.xml" afterPath="$PROJECT_DIR$/src/management_struts.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shop_struct.xml" afterPath="$PROJECT_DIR$/src/shop_struts.xml" />
     </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,22 +81,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="left_bar.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/shop_jsp/left_bar.jsp">
+      <file leaf-file-name="clubMumbers.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="91" column="49" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="411">
+              <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+              <folding>
+                <element signature="n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left_bar.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/club_jsp/left_bar.jsp">
+      <file leaf-file-name="clubHomepage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clubActivity.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/club_jsp/clubActivity.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,9 +128,9 @@
         <option value="AnnotationType" />
         <option value="Kotlin Class" />
         <option value="jsf" />
-        <option value="struts_2_3" />
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="struts_2_3" />
         <option value="Class" />
       </list>
     </option>
@@ -131,57 +155,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leqi/action/management/ManageAllRidersAction.java" />
-        <option value="$PROJECT_DIR$/web/log/login.html" />
-        <option value="$PROJECT_DIR$/web/js/log/supersized-init.js" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/addPicAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/club/AddShopPicAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDao.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/others/Log.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/others/LogImpl.java" />
-        <option value="$PROJECT_DIR$/web/log/login2.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/manage/left_bar.jsp" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubBiz.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubControlBizImpl.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/WEB-INF/classes/club_struct.xml" />
-        <option value="$PROJECT_DIR$/web/club_jsp/clubActivity.jsp" />
-        <option value="$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/others/LogBiz.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/dao/others/LogDao.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/dao/others/LogDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/others/LogBizImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/Logaction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/GetUserID.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/club/GetClubActivitiesAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/club/GetClubInfoAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/club/GetClubMembers.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/club/ModifyClubInfoAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/club/AddActivityAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/shop/ModifyShopInfoAction.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDao.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBiz.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBizImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/shop/ChangeShopHeadPicAction.java" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/src/shop_struct.xml" />
         <option value="$PROJECT_DIR$/src/management_struct.xml" />
         <option value="$PROJECT_DIR$/src/club_struct.xml" />
-        <option value="$PROJECT_DIR$/src/com/leqi/action/shop/AddGoodAction.java" />
         <option value="$PROJECT_DIR$/src/com/leqi/action/shop/ShopAction.java" />
-        <option value="$PROJECT_DIR$/web/shop_jsp/allGood.jsp" />
-        <option value="$PROJECT_DIR$/web/shop_jsp/shopHomePage.jsp" />
         <option value="$PROJECT_DIR$/src/com/leqi/action/club/AddClubPicAction.java" />
-        <option value="$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp" />
-        <option value="$PROJECT_DIR$/web/log/login.jsp" />
-        <option value="$PROJECT_DIR$/web/shop_jsp/addGood.jsp" />
         <option value="$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/club_jsp/error.html" />
         <option value="$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/shop-jsp/goodDetail.jsp" />
-        <option value="$PROJECT_DIR$/web/shop_jsp/left_bar.jsp" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlGoodDao.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlGoodDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/dao/others/MobileDao.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/biz/others/MobileBiz.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/mobile_struts.xml" />
+        <option value="$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/log/login.jsp" />
+        <option value="$PROJECT_DIR$/web/js/log/supersized-init.js" />
+        <option value="$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/index.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementCheckShop.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementAddClub.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementAddShop.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementAllClubs.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementAllRiders.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementAllShops.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/managementCheckClubInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/club_jsp/clubActivity.jsp" />
+        <option value="$PROJECT_DIR$/web/shop_jsp/addGood.jsp" />
         <option value="$PROJECT_DIR$/web/club_jsp/left_bar.jsp" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/shop/AddGoodAction.java" />
+        <option value="$PROJECT_DIR$/web/shop_jsp/left_bar.jsp" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllActivitiesAction.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllShopsAction.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/mobile/GetShopGoodsAction.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllClubs.java" />
+        <option value="$PROJECT_DIR$/web/manage/left_bar.jsp" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/management/ManageAddClubAction.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/management/ManageAddShopAction.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/dao/others/ChangePassDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/leqi/biz/others/ChangePassBizImpl.java" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp" />
+        <option value="$PROJECT_DIR$/web/shop_jsp/shopHomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/ChangePassAction.java" />
+        <option value="$PROJECT_DIR$/src/club_struts.xml" />
+        <option value="$PROJECT_DIR$/src/shop_struts.xml" />
+        <option value="$PROJECT_DIR$/web/css/shop/allGood.css" />
+        <option value="$PROJECT_DIR$/web/shop_jsp/allGood.jsp" />
+        <option value="$PROJECT_DIR$/web/shop_jsp/goodDetail.jsp" />
+        <option value="$PROJECT_DIR$/src/com/leqi/action/shop/GetGoodDetailAction.java" />
+        <option value="$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp" />
       </list>
     </option>
   </component>
@@ -231,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,6 +262,10 @@
               <option name="myItemId" value="leqiWEB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -278,7 +305,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="shop_jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leqiWEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leqiWEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,36 +395,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="biz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqiWEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leqi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1158,7 +1182,9 @@
       <workItem from="1483157910475" duration="12407000" />
       <workItem from="1483180276947" duration="10498000" />
       <workItem from="1483193602141" duration="3106000" />
-      <workItem from="1483323657709" duration="25538000" />
+      <workItem from="1483323657709" duration="27348000" />
+      <workItem from="1483510691314" duration="15710000" />
+      <workItem from="1483577584374" duration="16341000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1482062677700</created>
@@ -1251,11 +1277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483185695307</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="三大部分联合">
+      <created>1483368939521</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1483368939521</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227955000" />
+    <option name="totallyTimeSpent" value="261816000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1272,20 +1305,20 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14729951" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36824876" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36750787" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.87397707" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46972176" sideWeight="0.49394855" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47790506" sideWeight="0.49394855" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558245" sideWeight="0.3090909" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.61374795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.61374795" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18057664" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1359,168 +1392,157 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/others/LogBizImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/bean/ClubActivityEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="300">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/log/supersized-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/log/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/log/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1194">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/managementCheckShop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/managementAllClubs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/managementAllShops.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-881">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/managementCheckClubInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1541">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubActivityMember.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/club_jsp/left_bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="54" column="72" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/shop_jsp/left_bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="72" column="51" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllActivitiesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllClubs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/GetClubActivitiesAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/mobile/GetAllShopsAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="372">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
-            <element signature="e#1129#1130#0" expanded="false" />
-            <element signature="e#1159#1160#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/GetClubInfoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/GetClubMembers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1048#1049#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/ModifyClubInfoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubActivity.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/EnterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/ModifyShopInfoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/RemoveGoodAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/GetGoodDetailAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/mobile/GetShopGoodsAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/management/ManageClubBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageAddShopAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageAllRidersAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageCheckClubAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageCheckShopAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/GetUserID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1528,311 +1550,302 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/mobile_struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/shop/ShopControlDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBizImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        <state relative-caret-position="117">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="39" />
           <folding>
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1350#1351#0" expanded="false" />
+            <element signature="n#action#0;n#package#0;n#struts#0;n#!!top" expanded="false" />
+            <element signature="n#action#1;n#package#0;n#struts#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/ChangeShopHeadPicAction.java">
+    <entry file="file://$PROJECT_DIR$/web/manage/managementAllRiders.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2320#2321#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2457#2458#0" expanded="true" />
-            <element signature="e#2521#2522#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2605#2606#0" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
-            <element signature="e#2684#2685#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-300">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/clubBiz/ClubControlBizImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/manage/left_bar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="199">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/management_struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageAddShopAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageAddClubAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/management/ManageClubBizImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/management/ManageAllRidersAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="270">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="method#addActivity#0;class#ClubControlDaoImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop_struct.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="74">
+          <caret line="22" column="60" selection-start-line="20" selection-start-column="6" selection-end-line="22" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/management_struct.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/others/ChangePassDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="552">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/HibernateSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="n#action#0;n#package#0;n#struts#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/others/ChangePassBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/club_struct.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/GetClubInfoAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/shop_jsp/allGood.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+        <state relative-caret-position="194">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/ShopAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="29" column="9" selection-start-line="27" selection-start-column="7" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/ChangePassAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/AddActivityAction.java">
+    <entry file="file://$PROJECT_DIR$/src/club_struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="47" selection-start-line="55" selection-start-column="6" selection-end-line="56" selection-end-column="47" />
+        <state relative-caret-position="169">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/AddGoodAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="73" column="50" selection-start-line="72" selection-start-column="6" selection-end-line="73" selection-end-column="50" />
-          <folding>
-            <element signature="e#2715#2716#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/management/ManageClubDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/shop_struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/dao/club/ClubControlDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="18" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/biz/shop/ShopControlBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/club/AddClubPicAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/Logaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/log/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-          <folding>
-            <marker date="1483367646824" expanded="true" signature="1593:1637" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/club_jsp/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="180" column="2" selection-start-line="180" selection-start-column="2" selection-end-line="180" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/shop-jsp/goodDetail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/shop-jsp/addGood.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/bean/SessionFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="423">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/shop_jsp/shopHomePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state relative-caret-position="61">
+          <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/untitled3_war_exploded/css/shop/allGood.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/shop/allGood.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/ChangeShopHeadPicAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/shop_jsp/goodDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="115" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/GetGoodDetailAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leqi/action/shop/AddGoodAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/shop_jsp/allGood.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="115" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="115" />
+          <folding>
+            <marker date="1483597496765" expanded="false" signature="5453:6763" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/managementAddClub.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubActivity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubHomepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/shop_jsp/addGood.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+        <state relative-caret-position="319">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
           <folding>
             <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/shop_jsp/left_bar.jsp">
+    <entry file="file://$PROJECT_DIR$/web/manage/managementAddShop.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="91" column="49" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="49" />
+        <state relative-caret-position="210">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/club_jsp/left_bar.jsp">
+    <entry file="file://$PROJECT_DIR$/web/club_jsp/clubMumbers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="411">
+          <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+          <folding>
+            <element signature="n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

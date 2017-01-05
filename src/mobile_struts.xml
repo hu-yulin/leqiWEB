@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="mobile" extends="json-default">
+        <action name="mobileForAllClubs" class="com.leqi.action.mobile.GetAllClubs" method="getAllClubsForMobile">
+            <result type="json">
+                <param name="root">
+                    result
+                </param>
+            </result>
+        </action>
+
+        <action name="mobileForAllShops" class="com.leqi.action.mobile.GetAllShopsAction" method="getAllShops">
+            <result type="json">
+                <param name="root">
+                    result
+                </param>
+            </result>
+        </action>
+
+        <action name="mobileForAllActivities" class="com.leqi.action.mobile.GetAllActivitiesAction" method="getAllActivities">
+            <result type="json">
+                <param name="root">
+                    result
+                </param>
+            </result>
+        </action>
+
+        <action name="mobileForShopGoods" class="com.leqi.action.mobile.GetShopGoodsAction" method="getShopGoods">
+            <result type="json">
+                <param name="root">
+                    result
+                </param>
+            </result>
+        </action>
+
+
+    </package>
+</struts>

@@ -13,20 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 
-    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="../css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
     <%--<link href="../css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">--%>
-    <link href="../css/club/skycons.css" type="text/css" rel="stylesheet"/>
-    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/bootkit.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
-    <link href="../css/club/style.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
-    <script src="../js/club/core.min.js"></script>
-    <script src="../js/shop/picjs.js" type="text/javascript" ></script>
+    <link href="${pageContext.request.contextPath}/css/club/skycons.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/bootkit.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/style.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
+    <script src="${pageContext.request.contextPath}/js/jquery-2.1.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/shop/picjs.js" type="text/javascript" ></script>
+    <script src="${pageContext.request.contextPath}/js/club/core.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/shop/picjs.js" type="text/javascript" ></script>
 
     <script>
         $(".user_icon input[type='file']").bind("change",function () {
@@ -51,6 +51,92 @@
 <body>
 
 <div class="container-fluid content">
+
+    <div class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" id="addMember">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel">添加俱乐部成员</h4>
+                </div>
+
+                <form action="" method="post">
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row" style="margin-top:20px;">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>成员登录名</td>
+                                                        <td><input type="text" class="form-control" name="club.title" placeholder="必输入"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>初始密码</td>
+                                                        <td><input type="text" class="form-control" name="club.owner" placeholder="必输入"></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>成员名</td>
+                                                        <td><input type="text" class="form-control" name="club.contact" placeholder="必输入"></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>性别</td>
+                                                        <td>
+                                                            <div class="input-group">
+                                                                <input name="good.isRented" value="男" type="radio" checked="checked"
+                                                                       style="margin-left: 20px">男
+                                                                <input name="good.isRented" value="女" type="radio">女
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>联系方式</td>
+                                                        <td><input type="text" class="form-control" style="width: 40%" name="club.province" ></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>所在省</td>
+                                                        <td><input type="text" class="form-control" style="width: 40%" name="club.province" ></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>所在市</td>
+                                                        <td><input type="text" class="form-control" style="width: 40%" name="club.city" ></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>所在区</td>
+                                                        <td><input type="text" class="form-control" style="width: 40%" name="club.district" ></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>详细地址</td>
+                                                        <td><input type="text" class="form-control"  name="club.detail" ></td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-primary" >提交</button>
+                    </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
     <div class="row">
         <!--Sidebar-->
         <%@ include file="left_bar.jsp"%>
@@ -66,7 +152,7 @@
                 </div>
                 <div class="pull-right">
                     <h2 id="tag">
-                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#">
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addMember">
                             添加成员
                         </button></h2>
                 </div>

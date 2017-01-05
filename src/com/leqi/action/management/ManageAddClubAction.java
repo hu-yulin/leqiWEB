@@ -16,6 +16,7 @@ public class ManageAddClubAction extends ActionSupport{
 
     public String addClub(){
         ManageClubBiz manageClubBiz=new ManageClubBizImpl();
+        user.setUserType(3);
         manageClubBiz.addClub(club,user);
         return SUCCESS;
     }

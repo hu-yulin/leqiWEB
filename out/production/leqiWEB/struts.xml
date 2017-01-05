@@ -6,20 +6,20 @@
 
 <struts>
    <constant name="struts.i18n.encoding" value="UTF-8"/>
-   <include file="shop_struct.xml"></include>
-   <include file="management_struct.xml"></include>
-   <include file="club_struct.xml"></include>
-
-   <package name="log" extends="struts-default">
-
+   <include file="shop_struts.xml"></include>
+   <include file="management_struts.xml"></include>
+   <include file="club_struts.xml"></include>
+   <include file="mobile_struts.xml"></include>
 
 
+   <package name="total" extends="struts-default">
       <action name="log" class="com.leqi.action.Logaction" method="login">
          <result type="stream">
             <param name="contentType">text/plain</param>
             <param name="inputName">inputStream</param>
          </result>
       </action>
+
    </package>
 
 

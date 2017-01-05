@@ -11,11 +11,11 @@
 <head>
     <title>后台管理</title>
     <meta charset="UTF-8">
-    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="../css/manage/Iframe.css" type="text/css" rel="stylesheet">
-    <link href="../css/manage/index1.css" type="text/css" rel="stylesheet">
-    <script src="../js/jquery-2.1.1.min.js" type="text/javascript"></script>
-    <script src="../js/bootstrap.min.js" type="text/javascript" ></script>
+    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/manage/Iframe.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/manage/index1.css" type="text/css" rel="stylesheet">
+    <script src="${pageContext.request.contextPath}js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}js/bootstrap.min.js" type="text/javascript" ></script>
 
 </head>
 <body>

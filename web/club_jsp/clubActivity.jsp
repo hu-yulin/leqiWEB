@@ -14,15 +14,15 @@
 
     <link rel="shortcut icon" href="images/icon/c-check-1-l-280x280.png" type="image/x-icon"/>
 
-    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="../css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/shop/choose_pic_style.css" type="text/css" rel="stylesheet">
     <%--<link href="../css/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet">--%>
-    <link href="../css/club/skycons.css" type="text/css" rel="stylesheet"/>
-    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/bootkit.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
-    <link href="../css/club/style.css" type="text/css" rel="stylesheet"/>
-    <link href="../css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/skycons.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/bootkit.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/jquery.mmenu.css"type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/style.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/club/add-ons.min.css" type="text/css"rel="stylesheet"/>
 
 </head>
 
@@ -219,7 +219,7 @@
                                             <td>活动展示</td>
                                             <td>
                                                 <c:forEach items="${activity.clubActivityPicEntitySet}" var="pic">
-                                                    <img src="../${pic.path}" style="max-width: 200px;"/><hr>
+                                                    <img src="${pageContext.request.contextPath}/${pic.path}" style="max-width: 200px;"/><hr>
                                                 </c:forEach>
                                             </td>
                                         </tr>
@@ -253,12 +253,12 @@
 </div>
 
 
-<script src="../js/jquery-2.1.1.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery-2.1.1.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 <%--<script src="../js/bootstrap-datetimepicker.fr.js"></script>--%>
 <%--<script src="../js/bootstrap-datetimepicker.min.js"></script>--%>
-<script src="../js/shop/picjs.js" type="text/javascript" ></script>
-<script src="../js/club/core.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/shop/picjs.js" type="text/javascript" ></script>
+<script src="${pageContext.request.contextPath}/js/club/core.min.js"></script>
 <script type="text/javascript">
     $(".user_icon input[type='file']").bind("change",function () {
         var file=this.files[0];

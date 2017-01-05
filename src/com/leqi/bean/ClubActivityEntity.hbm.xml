@@ -19,10 +19,10 @@
             <column name="description" sql-type="text"/>
         </property>
         <property name="startTime">
-            <column name="start_time" sql-type="timestamp" not-null="false"/>
+            <column name="start_time" sql-type="text" not-null="false"/>
         </property>
         <property name="endTime">
-            <column name="end_time" sql-type="timestamp" not-null="false"/>
+            <column name="end_time" sql-type="text" not-null="false"/>
         </property>
         <property name="startPlace">
             <column name="start_place" sql-type="text"/>
@@ -31,7 +31,7 @@
             <column name="end_place" sql-type="text"/>
         </property>
         <property name="releaseTime">
-            <column name="release_time" sql-type="timestamp"/>
+            <column name="release_time" sql-type="text"/>
         </property>
         <property name="participateWay">
             <column name="participate_way" sql-type="text" not-null="true"/>

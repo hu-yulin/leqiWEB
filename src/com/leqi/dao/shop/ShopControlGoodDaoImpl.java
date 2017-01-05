@@ -86,4 +86,15 @@ public class ShopControlGoodDaoImpl implements ShopControlGoodDao {
         session.close();
         return new Long(count).intValue();
     }
+
+    @Override
+    public List<GoodEntity> getShopAllGoods(int shopID) {
+        Session session=HibernateSessionFactory.getSession();
+        String hql="from GoodEntity  b where b.shopId=:shopid";
+        Query query=session.createQuery(hql);
+        query.setParameter("shopid",shopID);
+        List list=query.list();
+        session.close();
+        return list;
+    }
 }

@@ -15,7 +15,7 @@
                         <div class="row" style="margin-top:20px;">
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="panel panel-default " >
-                                    <div class="panel-heading ">选择图片</div>
+                                    <div class="panel-heading ">选择图片(仅第一张图片将会被上传)</div>
                                     <div class="panel-body text-center">
 
                                         <div class="file_item">
@@ -46,14 +46,14 @@
                     <!--User-->
                     <div class="panel-body text-center">
                         <div class="bk-avatar">
-                            <img src="../${headPic}" class="img-circle bk-img-60" data-toggle="modal" data-target="#changeHeadPic"/>
+                            <img src="${pageContext.request.contextPath}/${headPic}" class="img-circle bk-img-60" data-toggle="modal" data-target="#changeHeadPic"/>
                         </div>
                         <div class="bk-padding-top-10">
                             <i class="fa fa-circle text-success"></i>
                             <small>Administrator</small>
                         </div>
                         <div style="float: right;font-size: 14px">
-                            <a href="/log/login.jsp">注销</a>
+                            <a href="${pageContext.request.contextPath}/">注销</a>
                         </div>
                     </div>
                     <!--End User-->
@@ -70,7 +70,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/shop_jsp/addGood.jsp">
+                        <a href="addGoodPage.action">
                             <i class="fa fa-plus-square" aria-hidden="true"></i>
                             <span>添加商品</span>
                         </a>
@@ -88,8 +88,8 @@
         </div>
         <div style="width:100%;float: right">
             <h5>组长：胡玉林<br></h5>
-            <h5>组员：张靖 闫新跃<br></h5>
-            <h5>&nbsp;&nbsp;&nbsp;李丹 王肇鑫<br></h5>
+            <h5 style="margin-top: 20px">组员：张靖 闫新跃<br></h5>
+            <h5>组员： 李丹 王肇鑫<br></h5>
             <h5 style="padding-left: 60px"></h5>
             <h5 style="bottom: 0;margin-top: 20px">指导老师：刘益先</h5>
         </div>

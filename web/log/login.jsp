@@ -11,13 +11,13 @@
     <meta name="author" content="">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/log/reset.css">
-    <link rel="stylesheet" href="../css/log/supersized.css">
-    <link rel="stylesheet" href="../css/log/style.css">
+    <link rel="stylesheet" href="css/log/reset.css">
+    <link rel="stylesheet" href="css/log/supersized.css">
+    <link rel="stylesheet" href="css/log/style.css">
 
-    <script src="../js/jquery-2.1.1.min.js" type="text/javascript"></script>
-    <script src="../js/log/supersized.3.2.7.min.js"></script>
-    <script src="../js/log/supersized-init.js"></script>
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/log/supersized.3.2.7.min.js"></script>
+    <script src="js/log/supersized-init.js"></script>
     <script type="text/javascript">
         window.onload = function () {
             $(".connect p").eq(0).animate({"left": "0%"}, 600);

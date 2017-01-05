@@ -33,5 +33,12 @@
             <result type="redirectAction">shopInfo</result>
             <param name="savePath">/pic/shop</param>
         </action>
+        <action name="addGoodPage" class="com.leqi.action.shop.AddGoodAction" method="enterAddGoodPage">
+            <result>/shop_jsp/addGood.jsp</result>
+        </action>
+
+        <action name="changeShopPass" class="com.leqi.action.ChangePassAction" method="changePass">
+             <result type="redirectAction">shopInfo</result>
+        </action>
     </package>
 </struts>
